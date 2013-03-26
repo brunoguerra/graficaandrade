@@ -105,10 +105,6 @@ Deface::Override.new(:virtual_path => "spree/shared/_footer",
 						<img src='/logo-pague-seguro.png' title='formas de pagamento'/>
 					</div>")
 
-Deface::Override.new(:virtual_path => "spree/shared/_main_nav_bar",
-					:name => "remove_home_link",
-					:remove => "#home-link")
-
 Deface::Override.new(:virtual_path => "spree/layouts/admin",
 					:name => "logo_admin",
 					:replace_contents => "figure",
@@ -116,7 +112,8 @@ Deface::Override.new(:virtual_path => "spree/layouts/admin",
 
 Deface::Override.new(:virtual_path => "spree/layouts/admin",
 					:name => "logo_jirafe",
-					:remove => "#jLogo")
+					:replace_contents => "#jLogo", 
+					:text => "Texto qualquer")
 
 Deface::Override.new(:virtual_path => "spree/admin/prototypes/_form",
 					 :name => "select_prototype_propety",
