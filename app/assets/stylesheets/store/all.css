@@ -1,0 +1,329 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *
+
+ *= require store/spree_core
+ *= require store/spree_promo
+
+ *= require_self
+ *= require_tree .
+ *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
+*/
+
+
+body{
+	background-repeat: repeat-x;
+	color:#2190c5;
+}
+
+a, li, p, span,
+#breadcrumbs li a,
+span.price,
+table#cart-detail tbody#line_items tr td[data-hook="cart_item_price"],
+table#cart-detail tbody#line_items tr td[data-hook="cart_item_total"],
+div[data-hook="inside_cart_form"] #subtotal span.order-total{
+	color:#2190c5;	
+}
+
+body nav #main-nav-bar li#link-to-cart a,
+body nav #main-nav-bar li#link-to-cart a .amount{
+	color:#5e1183;
+}
+
+#update-cart .primary,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+button,
+a.button{
+	background-color: #d0258a;
+	border:0px;
+}
+
+body #products li .price{	
+	font-size: 16px;
+}
+
+#sidebar #taxonomies .taxonomy-root{
+	background-color: #d0258a;
+	border:0px;
+	color:#fff;
+	margin: 0px;
+	padding: 5px 10px;
+}
+
+#sidebar #taxonomies ul{
+	background-color: #ffd324;
+	border-bottom: 5px solid #ffaf24;
+	list-style: none;
+	padding: 10px;
+}
+
+#sidebar #sidebar_products_search .filter-title{
+	background-color: #d0258a;
+	border:0px;
+	color:#fff;
+	margin: 0px;
+	padding: 5px 10px;
+}
+
+#sidebar #sidebar_products_search ul{
+	background-color: #ffd324;
+	border-bottom: 5px solid #ffaf24;
+	list-style: none;
+	padding: 10px;	
+}
+
+#sidebar #sidebar_products_search input[type="submit"]{
+	width: 100px;
+}
+
+#products li{
+	background-color: #f9f9f9;
+	border:1px solid #e6e6e6;
+	margin-right: 5px;
+}
+
+ul#products li .product-image{
+	border:0px;
+}
+
+ul#products li .info {
+	padding: 5px 10px;
+	text-align: left;
+}
+
+ul#products li .price{
+	background-color: #e6e6e6;
+	color:#666666;
+	padding: 5px 10px;
+	text-align: left;
+}
+
+#header #main-menu{
+	height: 200px;
+}
+
+#header #main-menu #login-row{
+	height: 80px;	
+	width: 960px;
+}
+
+#header #main-menu #logo{
+	background-color: #5e1183;
+	height: 120px;	
+	width: 960px;
+}
+
+#header #main-menu #logo img{
+	margin-top:25px;
+	margin-bottom: 45px;
+	margin-left: 40px;
+}
+
+#header #main-menu .columns{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#header #main-menu #login-bar{
+	background-color: rgba(255, 255, 255, 0.9);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	float: right;
+	height: 30px;
+	width: 300px;
+}
+
+#main-menu #login-bar{
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	list-style: none;
+}
+
+#main-menu #login-bar .access{
+	float: right;
+}
+
+#main-menu #login-bar ul{
+	list-style: none;
+}
+
+#main-menu #login-bar li{	
+	float:left;
+	margin: 0 6px;
+}
+
+#main-menu #login-bar li a{
+	color:#9a9ba3;
+}
+
+#main-menu #login-bar li img{
+	border-right: 1px solid #9a9ba3;
+	height: 18px;
+	padding-left: 4px;
+	padding-right: 14px;
+
+}
+#header #banner{
+	height: 300px;	
+	width: 960px;	
+}
+
+#header #banner .nivo-controlNav{
+	bottom: 0px;
+}
+
+#header #top-nav-bar{
+	background-color: #ffaf24;
+	border-bottom: 5px solid #f68a23;
+	height: 80px;
+	width: 960px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	text-align: right;;
+}
+
+#header #top-nav-bar #nav-bar{
+	margin-top: 25px;
+}
+
+#header #top-nav-bar #search-bar{
+	padding: 0 6px;
+}
+
+#header #top-nav-bar #search-bar #taxon{	
+	background: #d0258a url(/arrow.png) no-repeat right;
+	border:0px;
+	color:#fff;
+	float: left;
+	font-weight: bold;
+	padding-left: 5px;
+	height: 29px;
+	width: 152px;
+	-webkit-appearance: none;
+}
+
+#header #top-nav-bar #search-bar #taxon option{
+	color:#000;
+}
+
+#header #top-nav-bar #search-bar input[type="search"]{
+	width: 650px;
+}
+
+#header #top-nav-bar #search-bar input[type="submit"]{
+	width: 100px;	
+}
+
+#header #main-nav-bar{
+	border-bottom: 0px;
+	height: 35px;
+}
+
+nav #main-nav-bar li#link-to-cart{
+	background: url(/shopcart.png) no-repeat left center; 
+	background-size: 20px 20px;
+}
+
+
+#content #empty-cart{
+	margin-top: -50px;
+}
+
+#content #empty-cart .button{
+	border:0px;
+}
+
+#content #empty-cart .continue{
+	padding-bottom: 6px;
+}
+
+
+#similar_items_by_taxon{
+	list-style: none;
+}
+
+.flash.success,
+.flash.notice{
+	background-color: #2190c5;
+}
+
+body .container #footer a,
+body .container #footer p{
+	color:#fff;
+}
+
+.container #footer{
+	border-top:0px;
+	float: left;
+	padding-top: 0px;
+}
+
+#footer-top{
+	border-bottom:1px solid #d9d9db;
+	float: left;
+	width: 960px;	
+}
+
+
+.logo-footer img{
+	float: left;
+	padding: 30px 20px;	
+}
+
+.address{
+	float: left;
+	padding: 44px 20px;
+	width: 680px;
+}
+
+.address p{
+	float: right;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+
+#footer-bottom{
+	float: left;
+	padding: 20px 0px;
+	width: 960px;
+}
+
+#footer-bottom a{
+	float: left;
+	margin: auto 20px;
+}
+
+#footer-bottom img{
+	float: right;
+	margin: auto 20px;
+}
+
+.pagination{
+	text-align: center;
+}
+
+.pagination span{
+	border:1px solid #ccc;
+	border-radius:2px;
+	font-size:14px;
+	padding: 5px 10px;
+	margin-right: 1px;
+
+}
+
+#banner .theme-default .nivoSlider{
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
