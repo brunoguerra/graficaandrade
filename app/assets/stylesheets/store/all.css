@@ -45,6 +45,26 @@ a.button{
 	border:0px;
 }
 
+#horizontal_bar{
+	margin-bottom: 40px;
+	background-color: #939393;
+	min-height: 90px;
+}
+
+
+body #horizontal_bar #products li{
+	background-color: transparent;
+	border: 0px;
+	margin-left: 0px;	
+	margin-bottom: 0px;
+	width: 183px;
+}
+
+body #horizontal_bar #products li a{
+	border: 0px;
+	height: auto;
+}
+
 body #products li .price{	
 	font-size: 16px;
 }
@@ -105,17 +125,61 @@ ul#products li .price{
 	text-align: left;
 }
 
+#product-variants ul{
+	list-style: none;
+}
+
+.container .five.columns{
+	width: 560px;
+}
+
+#header{
+	margin-bottom: 0px;
+}
+
 #header #main-menu{
-	height: 200px;
+	height: 160px;
 }
 
 #header #main-menu #login-row{
-	height: 80px;	
+	height: 40px;	
 	width: 960px;
 }
 
+#home{
+	display: inline-block;
+	font-size: 12px;
+	font-family: arial;
+	width: 55px;
+  	height: 16px;
+	background: url(/home.png) left center no-repeat; 
+	padding-left:25px;
+	
+
+}
+
+#icon-face{
+	display: inline-block;
+	width: 80px;
+  	height: 16px;
+	background-image: url(/social.png);
+	background-position:  0px 0px;
+	background-repeat:  no-repeat;
+}
+
+#icon-twitter{
+	display: inline-block;
+	width: 72px;
+  	height: 16px;
+	background-image: url(/social.png);
+	background-position:  -80px 0px;
+	background-repeat:  no-repeat;
+	padding-right: 20px;
+}
+
 #header #main-menu #logo{
-	background-color: #5e1183;
+	background-color: #585858;
+	color: #9a9ba3;
 	height: 120px;	
 	width: 960px;
 }
@@ -126,53 +190,100 @@ ul#products li .price{
 	margin-left: 40px;
 }
 
+
+#header #main-menu #logo #link-to-cart{
+	background: url(/shopcart.png) no-repeat 12px 16px #232323;
+	background-size: 20px 20px;
+	float: right;
+	font-size: 16px;
+	list-style: none;
+	margin-top: 25px;
+	margin-bottom: 45px;
+	margin-right: 40px;
+	padding: 16px;
+	padding-left: 42px;
+	width: 80px;
+}
+
+#header #main-menu #logo #link-to-cart a{
+	color: #9a9ba3;
+}
+
+#header #main-menu #logo #link-to-cart a:hover{
+	color: #fff;
+}
+
+#header #main-menu #logo #link-to-cart .amount{
+	color: #ffd224;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#header #main-menu #logo #list-link{
+	font-size: 16px;
+	list-style: none;
+	float: right;
+	margin-top: 25px;
+	margin-right: 10px;
+	padding: 15px 12px;
+	text-align: right;
+}
+
+#header #main-menu #logo #list-link a{
+	color: #fff;
+}
+
+#header #main-menu #logo #list-link a:hover{
+	color: #9a9ba3;
+}
+
 #header #main-menu .columns{
 	margin-left: 0px;
 	margin-right: 0px;
 }
 
 #header #main-menu #login-bar{
-	background-color: rgba(255, 255, 255, 0.9);
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	float: right;
-	height: 30px;
-	width: 300px;
-}
-
-#main-menu #login-bar{
-	font-size: 16px;
-	font-weight: bold;
-	padding-top: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
+	line-height:16px;
+	padding-top: 10px;
+	padding-right: 22px;
 	list-style: none;
 }
 
+
 #main-menu #login-bar .access{
 	float: right;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 2px;
+}
+
+#main-menu #login-bar .access li{
+	float: left;
+	padding-right: 20px;
 }
 
 #main-menu #login-bar ul{
 	list-style: none;
-}
+	margin-right: 5px
+;}
 
-#main-menu #login-bar li{	
-	float:left;
-	margin: 0 6px;
+#main-menu #login-bar ul li{	
+	float:right;
 }
 
 #main-menu #login-bar li a{
 	color:#9a9ba3;
 }
 
-#main-menu #login-bar li img{
+#main-menu #login-bar li#link-to-cart{
+	background: url(/shopcart.png) no-repeat left center;
+	background-size: 20px 20px;
 	border-right: 1px solid #9a9ba3;
-	height: 18px;
-	padding-left: 4px;
+	padding-left: 24px;
 	padding-right: 14px;
-
 }
+
 #header #banner{
 	height: 300px;	
 	width: 960px;	
@@ -284,6 +395,7 @@ body .container #footer p{
 .address{
 	float: left;
 	padding: 44px 20px;
+	padding-bottom:27px;
 	width: 680px;
 }
 

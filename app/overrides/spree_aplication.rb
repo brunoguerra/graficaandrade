@@ -1,16 +1,16 @@
+#encoding: utf-8
 Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
 					 :name => "background",
 					 :insert_bottom => "head",
 					 :text =>"
 					 	<style>
-
 						  <% if current_page?(root_path) %>
 						    body{
-						      background-image: url(/bg-andrade.png), url(/rodape.png);
+						      background-image: url(/backg-andrade.png), url(/rodape.png);
 						    }
 						  <% else %>
 						      body{
-						        background-image: url(/fd-internas.jpg), url(/rodape.png);
+						        background-image: url(/backg-internas.jpg), url(/rodape.png);
 						      }
 						  <% end %>
 						  body{
@@ -34,6 +34,16 @@ Deface::Override.new(:virtual_path => "spree/shared/_header",
 					</div>")
 
 Deface::Override.new(:virtual_path => "spree/shared/_header",
+					 :name => "menus_main_bar",
+					 :insert_bottom => "#logo",
+					 :text => "
+					 <li id='link-to-cart' data-hook><%= link_to_cart %></li>
+					 <div id='list-link'>
+						 <li><a href='/signup'>Cadastre-se</a></li>
+						 <li><a href=''>Tabela de Preços</a></li>
+					 </div>")
+
+Deface::Override.new(:virtual_path => "spree/shared/_header",
 					:name => "login_row",
 					:insert_before => "#logo",
 					:text => "
@@ -48,9 +58,9 @@ Deface::Override.new(:virtual_path => "spree/shared/_header",
 								<% end %>
 							</div>
 							<ul>
-								<li><%= link_to image_tag('/home.png'), root_path %></li>
-								<li><a href='http://fb.com' target='_blank'><img src='/face.png'/></a></li>
-								<li><a href='http://twitter.com' target='_blank'><img src='/twitter.png'/></a></li>
+								<li><a href='http://twitter.com' target='_blank'><i id='icon-twitter'></i></a></li>
+								<li><a href='http://fb.com' target='_blank'><i id='icon-face'></i></a></li>
+								<li><a id='home' href='/' >Início</a></li>
 							</ul>
 						</div>
 					</div>")
@@ -76,6 +86,14 @@ Deface::Override.new(:virtual_path => "spree/shared/_nav_bar",
 					<li id='search-bar' data-hook>
 				      <%= render :partial => 'spree/shared/search' %>
 				    </li>")
+
+Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
+					 :name => "products_horizontal_bar",
+					 :insert_top => "#wrapper",
+					 :text => "
+					 <div id='horizontal_bar' data-hook='homepage_products'>
+						<%= render :partial => 'spree/shared/products_horizontal_bar', :locals => { :products => @products } %>
+					 </div>")
 
 Deface::Override.new(:virtual_path => "spree/shared/_footer",
 					:name => "clean_footer_left",
@@ -106,8 +124,8 @@ Deface::Override.new(:virtual_path => "spree/shared/_footer",
 					</div>")
 
 Deface::Override.new(:virtual_path => "spree/shared/_main_nav_bar",
-					:name => "remove_home_link",
-					:remove => "#home-link")
+					:name => "remove_main-nav-bar",
+					:remove => "#main-nav-bar")
 
 Deface::Override.new(:virtual_path => "spree/layouts/admin",
 					:name => "logo_admin",

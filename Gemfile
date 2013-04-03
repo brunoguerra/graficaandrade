@@ -43,3 +43,7 @@ gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git'
 gem "spree_correios"
 gem "spree_pag_seguro"
 gem 'spree_slider'
+#gem 'datashift'
+#gem 'datashift_spree'
+#gem 'wicked_pdf'
+gem 'spree_flexi_variants', :github=>'jsqu99/spree_flexi_variants'
