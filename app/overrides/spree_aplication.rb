@@ -6,11 +6,11 @@ Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
 					 	<style>
 						  <% if current_page?(root_path) %>
 						    body{
-						      background-image: url(/backg-andrade.png), url(/rodape.png);
+						      /*background-image: url(/backg-andrade.png), url(/rodape.png);*/
 						    }
 						  <% else %>
 						      body{
-						        background-image: url(/backg-internas.jpg), url(/rodape.png);
+						        /*background-image: url(/backg-internas.jpg), url(/rodape.png);*/
 						      }
 						  <% end %>
 						  body{
@@ -22,7 +22,13 @@ Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
 Deface::Override.new(:virtual_path => "spree/shared/_header",
 					:name => "change_logo",
 					:replace_contents => "#logo",
-					:text => "<%= link_to image_tag('logo-andrade.png'), root_path %>")
+					:text => "
+					<div id='area_logo'>
+						<%= link_to image_tag('logo-andrade.png'), root_path %>
+						<li id='search-bar' data-hook>
+					      <%= render :partial => 'spree/shared/search' %>
+					    </li>
+					</div>")
 
 
 Deface::Override.new(:virtual_path => "spree/shared/_header",
@@ -37,10 +43,12 @@ Deface::Override.new(:virtual_path => "spree/shared/_header",
 					 :name => "menus_main_bar",
 					 :insert_bottom => "#logo",
 					 :text => "
-					 <li id='link-to-cart' data-hook><%= link_to_cart %></li>
-					 <div id='list-link'>
-						 <li><a href='/signup'>Cadastre-se</a></li>
-						 <li><a href=''>Tabela de Preços</a></li>
+					 <div id='area_box'>
+						 <li id='link-to-cart' data-hook><%= link_to_cart %></li>
+						 <div id='list-link'>
+							 <li><a href='/signup'>Cadastre-se</a></li>
+							 <li><a href=''>Tabela de Preços</a></li>
+						 </div>
 					 </div>")
 
 Deface::Override.new(:virtual_path => "spree/shared/_header",
@@ -153,3 +161,8 @@ Deface::Override.new(:virtual_path => "spree/admin/prototypes/_form",
 				       	<%= f.label :option_type_ids, t(:option_types) %><br>
 				       	<%= f.select :option_type_ids, Spree::OptionType.all.map { |ot| [ot.name, ot.id] }, {}, { :multiple => true, :class => 'select2 fullwidth' } %>
 				     <% end %>")
+
+Deface::Override.new(:virtual_path   => "spree/products/_cart_form",
+                     :name           => "filter_variants",
+                     :replace        => "#product-variants",
+                     :partial        => "spree/shared/variants_product")

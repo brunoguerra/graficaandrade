@@ -13,6 +13,7 @@
  *= require themes/pascal/pascal
  *= require themes/orman/orman
  *= require nivo-slider
+ require spree_variant_options
 */
 
 
@@ -55,6 +56,7 @@ a.button{
 body #horizontal_bar #products li{
 	background-color: transparent;
 	border: 0px;
+	color:#252525;
 	margin-left: 0px;	
 	margin-bottom: 0px;
 	width: 183px;
@@ -138,7 +140,7 @@ ul#products li .price{
 }
 
 #header #main-menu{
-	height: 160px;
+	height: 280px;
 }
 
 #header #main-menu #login-row{
@@ -178,7 +180,6 @@ ul#products li .price{
 }
 
 #header #main-menu #logo{
-	background-color: #585858;
 	color: #9a9ba3;
 	height: 120px;	
 	width: 960px;
@@ -308,8 +309,11 @@ ul#products li .price{
 	margin-top: 25px;
 }
 
-#header #top-nav-bar #search-bar{
+#search-bar{
 	padding: 0 6px;
+	display: inline;
+	float: right;
+	margin-top: 40px;
 }
 
 #header #top-nav-bar #search-bar #taxon{	
@@ -339,6 +343,12 @@ ul#products li .price{
 #header #main-nav-bar{
 	border-bottom: 0px;
 	height: 35px;
+}
+
+#area_box{
+	background-color: yellow;
+	height: 116px;
+	width: 960px;
 }
 
 nav #main-nav-bar li#link-to-cart{
@@ -438,4 +448,14 @@ body .container #footer p{
 #banner .theme-default .nivoSlider{
 	-webkit-box-shadow:none;
 	box-shadow:none;
+}
+
+#filter-variants{
+	display: block;
+	background-color: #939393;
+	list-style: none;
+}
+
+#filter-variants li{
+	float: left;
 }
