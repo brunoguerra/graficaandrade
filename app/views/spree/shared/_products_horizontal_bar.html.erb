@@ -1,4 +1,7 @@
 <% if !products.nil? %>
+  <div id='open_horiz_bar'>
+	<p>Produtos</p>
+  </div>
   <ul id="products" class="inline product-listing" data-hook>  
     <% products.each do |product| %>
       <% if product.on_display? %>
@@ -9,3 +12,10 @@
     <% end %>  
   </ul>
 <% end %>
+
+<script>
+	$('#open_horiz_bar').click(function(){
+		//$('#products').toggle(600);
+		$('#products').animate({height: "toggle"}, 200);
+	});
+</script>

@@ -44,11 +44,9 @@ Deface::Override.new(:virtual_path => "spree/shared/_header",
 					 :insert_bottom => "#logo",
 					 :text => "
 					 <div id='area_box'>
-						 <li id='link-to-cart' data-hook><%= link_to_cart %></li>
-						 <div id='list-link'>
-							 <li><a href='/signup'>Cadastre-se</a></li>
-							 <li><a href=''>Tabela de Preços</a></li>
-						 </div>
+						 <li id='link-to-cart' class='box-black' data-hook><%= link_to_cart %></li>
+						 <li id='link-to-contacts' class='box-black' data-hook><a href='/'>Contatos</a></li>
+						 <li id='link-to-art' class='box-black' data-hook><a href='/'>Criação de Arte</a></li>
 					 </div>")
 
 Deface::Override.new(:virtual_path => "spree/shared/_header",
@@ -58,10 +56,12 @@ Deface::Override.new(:virtual_path => "spree/shared/_header",
 					<div id='login-row'>
 						<div id='login-bar'>
 							<div class='access'>
+								<li><a href=''>Tabela de Preços</a></li>
 								<% if current_user %>
 								  <li><%= link_to t(:my_account), spree.account_path %></li>
 								  <li><%= link_to t(:logout), spree.destroy_user_session_path %></li>
 								<% else %>
+								  <li><a href='/signup'>Cadastre-se</a></li>
 								  <li id='link-to-login'><%= link_to t(:login), spree.login_path %></li>
 								<% end %>
 							</div>
@@ -85,15 +85,7 @@ Deface::Override.new(:virtual_path => "spree/shared/_header",
 
 Deface::Override.new(:virtual_path => "spree/shared/_nav_bar",
 					:name => "remove_nav_bars",
-					:remove => "li")
-
-Deface::Override.new(:virtual_path => "spree/shared/_nav_bar",
-					:name => "insert_search",
-					:insert_top => "#nav-bar",
-					:text => "
-					<li id='search-bar' data-hook>
-				      <%= render :partial => 'spree/shared/search' %>
-				    </li>")
+					:remove => "#top-nav-bar")
 
 Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
 					 :name => "products_horizontal_bar",
