@@ -1,5 +1,4 @@
 <div id='filter-variants'>         
-  
     <div id="product-variants">
       <h2><%= t('variants') %></h2>
       <% index = 0 %>
@@ -7,7 +6,6 @@
         <div id="<%= dom_id(type) %>" class="variant-options index-<%= index %>">
           <h6 class="variant-option-type"><%= type.presentation %></h6>
           <%= select( "payment", "id", values.map {|u| [u.presentation,u.name]}, {:include_blank=> "Todos"}) %>
-
         </div>
         <% index += 1 %>
       <% end %>
@@ -26,7 +24,6 @@
             <%= radio_button_tag "products[#{@product.id}]", v.id, checked, :disabled => !v.in_stock && !Spree::Config[:allow_backorders], 'data-price' => v.price_in(current_currency).display_price %>
             <label for="<%= ['products', @product.id, v.id].join('_') %>">
               <span class="variant-description">
-                <% puts '------'+v.option_values.to_yaml %>
                 <%= variant_options v %>
               </span>
               <% if variant_price v %>
@@ -36,33 +33,23 @@
           </li>
         <% end %>
       </ul>  
-      <%= hidden_field_tag "products[#{@product.id}]", "", :id => "variant_id", :class => "hidden" %>   
+      
     </div>
-  
 </div>
-
 <script type="text/javascript">
-  
   var total_filters = <%= index %>;
   $('#product-variants select').change(function(){
-
     var selecteds_class = [];
-
     for(var i = 0; i <= total_filters-1; i++)
     {
       var sel = $('.index-'+i+' select').val();
       if(sel != ""){
         selecteds_class.push('.class_'+sel);
       }
-      
     }
-
     if (selecteds_class.length>0) {
       $('.variations-ul li').hide();
-
-      console.log($(selecteds_class.join("")));
       $(selecteds_class.join("")).each(function (i,element) {
-        console.log(element);
         $(element).show();
       });
     } else {

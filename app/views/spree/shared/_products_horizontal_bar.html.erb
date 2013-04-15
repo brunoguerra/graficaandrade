@@ -5,7 +5,7 @@
   <ul id="products" class="inline product-listing" data-hook>  
     <% products.each do |product| %>
       <% if product.on_display? %>
-        <li id="product_<%= product.id %>" class="columns three <%= cycle("alpha", "secondary", "", "omega secondary", :name => "classes") %>" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">        
+        <li id="product_<%= product.id %>" class="columns three <%= cycle("alpha", "secondary", "", "omega secondary product_horiz", :name => "classes") %>" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">        
           <%= link_to truncate(product.name, :length => 50), product, :class => 'info', :itemprop => "name", :title => product.name %>        
         </li>
       <% end %>
@@ -15,7 +15,6 @@
 
 <script>
 	$('#open_horiz_bar').click(function(){
-		//$('#products').toggle(600);
 		$('#products').animate({height: "toggle"}, 200);
 	});
 </script>

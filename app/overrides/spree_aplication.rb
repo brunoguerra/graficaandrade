@@ -6,11 +6,11 @@ Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
 					 	<style>
 						  <% if current_page?(root_path) %>
 						    body{
-						      /*background-image: url(/backg-andrade.png), url(/rodape.png);*/
+						      background-image: url(/backg-andrade.png), url(/rodape.png);
 						    }
 						  <% else %>
 						      body{
-						        /*background-image: url(/backg-internas.jpg), url(/rodape.png);*/
+						        background-image: url(/backg-internas.jpg), url(/rodape.png);
 						      }
 						  <% end %>
 						  body{
@@ -29,7 +29,11 @@ Deface::Override.new(:virtual_path => "spree/shared/_header",
 					      <%= render :partial => 'spree/shared/search' %>
 					    </li>
 					</div>")
-
+=begin
+Deface::Override.new(:virtual_path => "spree/shared/_nav_bar",
+					 :name => "remove_filter",
+					 :remove => "#taxon")
+=end
 
 Deface::Override.new(:virtual_path => "spree/shared/_header",
 					:name => "involve_logo",
@@ -56,12 +60,12 @@ Deface::Override.new(:virtual_path => "spree/shared/_header",
 					<div id='login-row'>
 						<div id='login-bar'>
 							<div class='access'>
-								<li><a href=''>Tabela de Preços</a></li>
+								<li id='table-price'><a href='/graficaandrade.xls'>Tabela de Preços</a></li>
 								<% if current_user %>
-								  <li><%= link_to t(:my_account), spree.account_path %></li>
-								  <li><%= link_to t(:logout), spree.destroy_user_session_path %></li>
+								  <li id='my-account'><%= link_to t(:my_account), spree.account_path %></li>
+								  <li id='logout'><%= link_to t(:logout), spree.destroy_user_session_path %></li>
 								<% else %>
-								  <li><a href='/signup'>Cadastre-se</a></li>
+								  <li id='sign-up'><a href='/signup'>Cadastre-se</a></li>
 								  <li id='link-to-login'><%= link_to t(:login), spree.login_path %></li>
 								<% end %>
 							</div>
@@ -94,6 +98,23 @@ Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
 					 <div id='horizontal_bar' data-hook='homepage_products'>
 						<%= render :partial => 'spree/shared/products_horizontal_bar', :locals => { :products => @products } %>
 					 </div>")
+
+Deface::Override.new(:virtual_path => "spree/shared/_products",
+					:name => "see_details",
+					:insert_after => "span",
+					:text => "
+					<div id='see-details'>
+						<%= link_to truncate('Ver detalhes'), product, :itemprop => 'name' %>
+					</div>")
+
+Deface::Override.new(:virtual_path => "spree/shared/_products",
+					 :name => "size_image",
+					 :replace => ".product-image",
+					 :text => "
+					 <div class='product-image'>
+			          	<%= link_to large_image(product, :itemprop => 'image'), product, :itemprop => 'url' %>
+			         </div>")
+
 
 Deface::Override.new(:virtual_path => "spree/shared/_footer",
 					:name => "clean_footer_left",
@@ -153,6 +174,7 @@ Deface::Override.new(:virtual_path => "spree/admin/prototypes/_form",
 				       	<%= f.label :option_type_ids, t(:option_types) %><br>
 				       	<%= f.select :option_type_ids, Spree::OptionType.all.map { |ot| [ot.name, ot.id] }, {}, { :multiple => true, :class => 'select2 fullwidth' } %>
 				     <% end %>")
+
 
 Deface::Override.new(:virtual_path   => "spree/products/_cart_form",
                      :name           => "filter_variants",
