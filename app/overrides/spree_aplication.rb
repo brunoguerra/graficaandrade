@@ -218,5 +218,4 @@ Deface::Override.new(:virtual_path   => "spree/checkout/_payment",
 Deface::Override.new(:virtual_path   => "spree/shared/_order_details",
                      :name           => "div_payment-info",
                      :replace        => ".payment-info",
-                     :text		     => "
-                     	<%= render order.payments %>")
+                     :text		     => "<%= render order.payments %>")

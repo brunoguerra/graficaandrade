@@ -24,6 +24,10 @@ h1.three.columns{
 	color: black;
 }
 
+li.current span, li.current-first span{
+	color: #fff;
+}
+
 body{
 	background-repeat: repeat-x;
 	color:#2190c5;
