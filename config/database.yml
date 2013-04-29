@@ -1,6 +1,8 @@
+
 development:
+  
   adapter: postgresql
-  database: graficaa_db
+  database: graficaandrade_development
   username: postgres
   password: 
   host: localhost
@@ -12,28 +14,27 @@ development:
   timeout: 5000
 
 test:
-    adapter: postgresql
-    database: graficaa_test
-    username: postgres
-    password: 
-    host: localhost
-    encoding: UTF8
-    collate: pt_BR.UTF8
-    ctype: pt_BR.UTF8
-    template: template0
-    pool: 5
-    timeout: 5000
+  adapter: postgresql
+  database: graficaandrade_test
+  username: postgres
+  password: 
+  host: localhost
+  encoding: UTF8
+  collate: pt_BR.UTF8
+  ctype: pt_BR.UTF8
+  template: template0
+  pool: 5
+  timeout: 5000
 
 production:
-    adapter: postgresql
-    prepared_statements: false
-    database: graficaa_db
-    username: postgres
-    password: 
-    host: localhost
-    encoding: UTF8
-    collate: pt_BR.UTF8
-    ctype: pt_BR.UTF8
-    template: template0
-    pool: 5
-    timeout: 5000
+  adapter: postgresql
+  database: graficaandrade_production
+  username: postgres
+  password: 
+  host: localhost
+  encoding: UTF8
+  collate: pt_BR.UTF8
+  ctype: pt_BR.UTF8
+  template: template0
+  pool: 5
+  timeout: 5000

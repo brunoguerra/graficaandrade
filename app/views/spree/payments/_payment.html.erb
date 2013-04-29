@@ -1,0 +1,38 @@
+<div class="payment">
+  <strong>
+    <%= t(:payment_counter, :count => payment_counter + 1) %> 
+    (<%= payment.display_amount %>)
+  </strong>
+  <br>
+
+  <% source = payment.source %>
+  <% if source.is_a?(Spree::CreditCard) %>
+    <span class="cc-type">
+      <% unless (cc_type = source.cc_type).blank? %>
+        <%= image_tag "credit_cards/icons/#{cc_type}.png" %>
+      <% end %>
+      <%= t(:ending_in) %> <%= source.last_digits %>
+    </span>
+    <br />
+    <span class="full-name">
+      <%= source.first_name %>
+      <%= source.last_name %>: 
+    </span>
+    <%= t("payment_states.#{payment.state}") %>
+  <% else %>
+    <%= content_tag(:span, payment.payment_method.name) %>
+  <% end %>
+</div>
+<br>
+
+<% if payment.payment_method.instance_of? Spree::PaymentMethod::PagSeguroMethod %>
+  <% if payment.completed? %>
+    Seu pagamento foi aprovado pelo PagSeguro através da transação de código: <%= payment.order.payment_notifications.last.transaction_id if payment.order.payment_notifications.present? %>
+  <% else 
+    pagamento_login = payment.payment_method.code(payment)
+  %>
+
+    Clique na imagem abaixo para realizar o pagamento através do Pag Seguro.
+    <%= link_to image_tag("pag_seguro_checkout.gif"), PagSeguro::Payment.checkout_payment_url(pagamento_login) %>
+  <% end %>
+<% end %>

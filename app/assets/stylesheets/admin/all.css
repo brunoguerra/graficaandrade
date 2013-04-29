@@ -9,4 +9,9 @@
 
  *= require_self
  *= require_tree .
+ 
 */
+
+.admin #wrapper .flash{
+	padding: 23px;
+}

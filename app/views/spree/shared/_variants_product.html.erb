@@ -1,0 +1,95 @@
+<div>
+    <div id="product-variants">
+      <h2><%= t('variants') %></h2>
+
+      <div class="filtros">
+        <ul class="noMarker clearfix">
+          <% 
+            index = 0
+            @product.grouped_option_values.each do |type, values| %>
+
+            <li id="<%= dom_id(type) %>" class="variant-options index-<%= index %>">
+              <label for="propriedade_<%= index %>"><%= type.presentation %>:</label>
+              <%= select( "propriedade", index, values.map {|u| [u.presentation,u.name]}, {:include_blank=> "Todos"}) %>
+            </li>
+            <% index += 1 %>
+          <% end %>
+        </ul>
+      </div>
+
+      <ul class="variations-ul">
+        <% has_checked = false
+        @product.variants.active(current_currency).each_with_index do |v,index|
+          next if v.option_values.empty? || (!v.in_stock && !Spree::Config[:show_zero_stock_products])
+          checked = !has_checked && (v.in_stock || Spree::Config[:allow_backorders])
+          has_checked = true if checked 
+          classes = ""
+          v.option_values.each do |opt|
+            classes += " class_"+opt.name
+          end
+          %>
+          <section class="prod-accordion <%= classes %>" style="display: block;">
+            <h2>
+              <a href="javascript:void(0);" class="aberto">
+                <%= t('sku') +': '+v.sku %>
+              </a>
+            </h2>
+            <section class="prod-accordion-cont" id="menu_69" style="display: block;">
+            <table>
+              <tbody>
+                <tr class="tr-item" style="background-color: rgb(255, 255, 255);">
+                  <td style="width:50%;">
+                    <p>
+                      <a href="#" style="font-weight: bold; color: #E20B82;"><%=v.sku%></a><br>
+                      <a href="#" style="font-weight: bold; color: #000;"><%= variant_options v %></a>
+                    </p>
+                  </td>
+                  <td style="width:20%;"><p><span>Preço</span><strong><%= v.price_in(current_currency).display_price %></strong></p></td>
+                  
+                  <td style="width:20%;">
+                    <p>
+                      <%= link_to raw('<img src="/assets/ico-gabarito.png" alt="Gabarito" title="Baixe o Gabarito">'), "/spree/variants?template="+v.template.to_s, :target => '_blank' %>
+                        
+                      </a>
+                    </p>
+                  </td>
+                  
+                  <td class="col-bt-comprar" style="width:10%;">
+                    <p>
+                      <a href="javascript:void(0);" class="bt-comprar">
+                      <label for="<%= ['products', @product.id, v.id].join('_')%>">
+                        <%= radio_button_tag "products[#{@product.id}]", v.id, checked, :disabled => !v.in_stock && !Spree::Config[:allow_backorders], 'data-price' => v.price_in(current_currency).display_price, :style=>"vertical-align:middle!important;" %> Selecionar
+                      </label></a>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </section>
+        </section>
+        <% end %>
+      </ul>  
+      
+    </div>
+</div>
+
+<script type="text/javascript">
+  var total_filters = <%= index %>;
+  $('#product-variants select').change(function(){
+    var selecteds_class = [];
+    for(var i = 0; i <= total_filters-1; i++)
+    {
+      var sel = $('.index-'+i+' select').val();
+      if(sel != ""){
+        selecteds_class.push('.class_'+sel);
+      }
+    }
+    if (selecteds_class.length>0) {
+      $('.variations-ul section.prod-accordion').hide();
+      $(selecteds_class.join("")).each(function (i,element) {
+        $(element).show();
+      });
+    } else {
+      $('.variations-ul section.prod-accordion').show();      
+    }
+  });
+</script>

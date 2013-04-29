@@ -1,0 +1,2656 @@
+Script started on Ter 02 Abr 2013 09:51:24 BRT
+]0;felipedaraujo@felipedaraujo: ~/Documentos/Woese/graficaandradefelipedaraujo@felipedaraujo:~/Documentos/Woese/graficaandrade$ gem install wicked_pdf
+Fetching: wicked_pdf-0.9.4.gemFetching: wicked_pdf-0.9.4.gem (  9%)Fetching: wicked_pdf-0.9.4.gem ( 19%)Fetching: wicked_pdf-0.9.4.gem ( 24%)Fetching: wicked_pdf-0.9.4.gem ( 29%)Fetching: wicked_pdf-0.9.4.gem ( 34%)Fetching: wicked_pdf-0.9.4.gem ( 40%)Fetching: wicked_pdf-0.9.4.gem ( 70%)Fetching: wicked_pdf-0.9.4.gem ( 75%)Fetching: wicked_pdf-0.9.4.gem ( 81%)Fetching: wicked_pdf-0.9.4.gem ( 86%)Fetching: wicked_pdf-0.9.4.gem ( 91%)Fetching: wicked_pdf-0.9.4.gem (100%)Fetching: wicked_pdf-0.9.4.gem (100%)
+Fetching: activesupport-3.2.13.gemFetching: activesupport-3.2.13.gem (  1%)Fetching: activesupport-3.2.13.gem (  3%)Fetching: activesupport-3.2.13.gem (  4%)Fetching: activesupport-3.2.13.gem (  5%)Fetching: activesupport-3.2.13.gem (  6%)Fetching: activesupport-3.2.13.gem (  7%)Fetching: activesupport-3.2.13.gem (  8%)Fetching: activesupport-3.2.13.gem (  9%)Fetching: activesupport-3.2.13.gem ( 11%)Fetching: activesupport-3.2.13.gem ( 12%)Fetching: activesupport-3.2.13.gem ( 13%)Fetching: activesupport-3.2.13.gem ( 14%)Fetching: activesupport-3.2.13.gem ( 15%)Fetching: activesupport-3.2.13.gem ( 18%)Fetching: activesupport-3.2.13.gem ( 19%)Fetching: activesupport-3.2.13.gem ( 20%)Fetching: activesupport-3.2.13.gem ( 23%)Fetching: activesupport-3.2.13.gem ( 24%)Fetching: activesupport-3.2.13.gem ( 25%)Fetching: activesupport-3.2.13.gem ( 26%)Fetching: activesupport-3.2.13.gem ( 27%)Fetching: activesupport-3.2.13.gem ( 28%)Fetching: activesupport-3.2.13.gem ( 29%)Fetching: activesupport-3.2.13.gem ( 30%)Fetching: activesupport-3.2.13.gem ( 31%)Fetching: activesupport-3.2.13.gem ( 32%)Fetching: activesupport-3.2.13.gem ( 35%)Fetching: activesupport-3.2.13.gem ( 36%)Fetching: activesupport-3.2.13.gem ( 37%)Fetching: activesupport-3.2.13.gem ( 38%)Fetching: activesupport-3.2.13.gem ( 41%)Fetching: activesupport-3.2.13.gem ( 42%)Fetching: activesupport-3.2.13.gem ( 45%)Fetching: activesupport-3.2.13.gem ( 46%)Fetching: activesupport-3.2.13.gem ( 47%)Fetching: activesupport-3.2.13.gem ( 50%)Fetching: activesupport-3.2.13.gem ( 53%)Fetching: activesupport-3.2.13.gem ( 54%)Fetching: activesupport-3.2.13.gem ( 55%)Fetching: activesupport-3.2.13.gem ( 57%)Fetching: activesupport-3.2.13.gem ( 58%)Fetching: activesupport-3.2.13.gem ( 61%)Fetching: activesupport-3.2.13.gem ( 62%)Fetching: activesupport-3.2.13.gem ( 63%)Fetching: activesupport-3.2.13.gem ( 68%)Fetching: activesupport-3.2.13.gem ( 74%)Fetching: activesupport-3.2.13.gem ( 79%)Fetching: activesupport-3.2.13.gem ( 82%)Fetching: activesupport-3.2.13.gem ( 84%)Fetching: activesupport-3.2.13.gem ( 87%)Fetching: activesupport-3.2.13.gem ( 88%)Fetching: activesupport-3.2.13.gem ( 89%)Fetching: activesupport-3.2.13.gem ( 90%)Fetching: activesupport-3.2.13.gem ( 91%)Fetching: activesupport-3.2.13.gem ( 92%)Fetching: activesupport-3.2.13.gem ( 93%)Fetching: activesupport-3.2.13.gem ( 94%)Fetching: activesupport-3.2.13.gem ( 97%)Fetching: activesupport-3.2.13.gem ( 99%)Fetching: activesupport-3.2.13.gem (100%)Fetching: activesupport-3.2.13.gem (100%)
+Fetching: activemodel-3.2.13.gemFetching: activemodel-3.2.13.gem ( 22%)Fetching: activemodel-3.2.13.gem ( 28%)Fetching: activemodel-3.2.13.gem ( 31%)Fetching: activemodel-3.2.13.gem ( 34%)Fetching: activemodel-3.2.13.gem ( 41%)Fetching: activemodel-3.2.13.gem ( 44%)Fetching: activemodel-3.2.13.gem ( 50%)Fetching: activemodel-3.2.13.gem ( 53%)Fetching: activemodel-3.2.13.gem ( 57%)Fetching: activemodel-3.2.13.gem ( 60%)Fetching: activemodel-3.2.13.gem ( 63%)Fetching: activemodel-3.2.13.gem ( 82%)Fetching: activemodel-3.2.13.gem ( 92%)Fetching: activemodel-3.2.13.gem ( 95%)Fetching: activemodel-3.2.13.gem (100%)Fetching: activemodel-3.2.13.gem (100%)
+Fetching: actionpack-3.2.13.gemFetching: actionpack-3.2.13.gem (  4%)Fetching: actionpack-3.2.13.gem (  5%)Fetching: actionpack-3.2.13.gem (  9%)Fetching: actionpack-3.2.13.gem ( 10%)Fetching: actionpack-3.2.13.gem ( 12%)Fetching: actionpack-3.2.13.gem ( 13%)Fetching: actionpack-3.2.13.gem ( 16%)Fetching: actionpack-3.2.13.gem ( 17%)Fetching: actionpack-3.2.13.gem ( 20%)Fetching: actionpack-3.2.13.gem ( 21%)Fetching: actionpack-3.2.13.gem ( 24%)Fetching: actionpack-3.2.13.gem ( 25%)Fetching: actionpack-3.2.13.gem ( 27%)Fetching: actionpack-3.2.13.gem ( 28%)Fetching: actionpack-3.2.13.gem ( 31%)Fetching: actionpack-3.2.13.gem ( 32%)Fetching: actionpack-3.2.13.gem ( 33%)Fetching: actionpack-3.2.13.gem ( 34%)Fetching: actionpack-3.2.13.gem ( 37%)Fetching: actionpack-3.2.13.gem ( 40%)Fetching: actionpack-3.2.13.gem ( 41%)Fetching: actionpack-3.2.13.gem ( 42%)Fetching: actionpack-3.2.13.gem ( 45%)Fetching: actionpack-3.2.13.gem ( 46%)Fetching: actionpack-3.2.13.gem ( 47%)Fetching: actionpack-3.2.13.gem ( 48%)Fetching: actionpack-3.2.13.gem ( 49%)Fetching: actionpack-3.2.13.gem ( 50%)Fetching: actionpack-3.2.13.gem ( 53%)Fetching: actionpack-3.2.13.gem ( 54%)Fetching: actionpack-3.2.13.gem ( 55%)Fetching: actionpack-3.2.13.gem ( 57%)Fetching: actionpack-3.2.13.gem ( 58%)Fetching: actionpack-3.2.13.gem ( 61%)Fetching: actionpack-3.2.13.gem ( 62%)Fetching: actionpack-3.2.13.gem ( 63%)Fetching: actionpack-3.2.13.gem ( 64%)Fetching: actionpack-3.2.13.gem ( 66%)Fetching: actionpack-3.2.13.gem ( 67%)Fetching: actionpack-3.2.13.gem ( 68%)Fetching: actionpack-3.2.13.gem ( 71%)Fetching: actionpack-3.2.13.gem ( 72%)Fetching: actionpack-3.2.13.gem ( 75%)Fetching: actionpack-3.2.13.gem ( 76%)Fetching: actionpack-3.2.13.gem ( 79%)Fetching: actionpack-3.2.13.gem ( 80%)Fetching: actionpack-3.2.13.gem ( 81%)Fetching: actionpack-3.2.13.gem ( 82%)Fetching: actionpack-3.2.13.gem ( 83%)Fetching: actionpack-3.2.13.gem ( 84%)Fetching: actionpack-3.2.13.gem ( 85%)Fetching: actionpack-3.2.13.gem ( 87%)Fetching: actionpack-3.2.13.gem ( 88%)Fetching: actionpack-3.2.13.gem ( 90%)Fetching: actionpack-3.2.13.gem ( 91%)Fetching: actionpack-3.2.13.gem ( 92%)Fetching: actionpack-3.2.13.gem ( 93%)Fetching: actionpack-3.2.13.gem ( 94%)Fetching: actionpack-3.2.13.gem ( 95%)Fetching: actionpack-3.2.13.gem ( 96%)Fetching: actionpack-3.2.13.gem ( 97%)Fetching: actionpack-3.2.13.gem ( 98%)Fetching: actionpack-3.2.13.gem (100%)Fetching: actionpack-3.2.13.gem (100%)
+Fetching: activerecord-3.2.13.gemFetching: activerecord-3.2.13.gem (  2%)Fetching: activerecord-3.2.13.gem (  3%)Fetching: activerecord-3.2.13.gem (  4%)Fetching: activerecord-3.2.13.gem (  5%)Fetching: activerecord-3.2.13.gem (  6%)Fetching: activerecord-3.2.13.gem (  7%)Fetching: activerecord-3.2.13.gem (  8%)Fetching: activerecord-3.2.13.gem (  9%)Fetching: activerecord-3.2.13.gem ( 10%)Fetching: activerecord-3.2.13.gem ( 11%)Fetching: activerecord-3.2.13.gem ( 14%)Fetching: activerecord-3.2.13.gem ( 15%)Fetching: activerecord-3.2.13.gem ( 16%)Fetching: activerecord-3.2.13.gem ( 17%)Fetching: activerecord-3.2.13.gem ( 18%)Fetching: activerecord-3.2.13.gem ( 20%)Fetching: activerecord-3.2.13.gem ( 21%)Fetching: activerecord-3.2.13.gem ( 24%)Fetching: activerecord-3.2.13.gem ( 25%)Fetching: activerecord-3.2.13.gem ( 26%)Fetching: activerecord-3.2.13.gem ( 29%)Fetching: activerecord-3.2.13.gem ( 30%)Fetching: activerecord-3.2.13.gem ( 31%)Fetching: activerecord-3.2.13.gem ( 32%)Fetching: activerecord-3.2.13.gem ( 33%)Fetching: activerecord-3.2.13.gem ( 35%)Fetching: activerecord-3.2.13.gem ( 36%)Fetching: activerecord-3.2.13.gem ( 37%)Fetching: activerecord-3.2.13.gem ( 38%)Fetching: activerecord-3.2.13.gem ( 39%)Fetching: activerecord-3.2.13.gem ( 42%)Fetching: activerecord-3.2.13.gem ( 43%)Fetching: activerecord-3.2.13.gem ( 46%)Fetching: activerecord-3.2.13.gem ( 47%)Fetching: activerecord-3.2.13.gem ( 48%)Fetching: activerecord-3.2.13.gem ( 49%)Fetching: activerecord-3.2.13.gem ( 51%)Fetching: activerecord-3.2.13.gem ( 52%)Fetching: activerecord-3.2.13.gem ( 53%)Fetching: activerecord-3.2.13.gem ( 54%)Fetching: activerecord-3.2.13.gem ( 55%)Fetching: activerecord-3.2.13.gem ( 58%)Fetching: activerecord-3.2.13.gem ( 59%)Fetching: activerecord-3.2.13.gem ( 60%)Fetching: activerecord-3.2.13.gem ( 61%)Fetching: activerecord-3.2.13.gem ( 62%)Fetching: activerecord-3.2.13.gem ( 65%)Fetching: activerecord-3.2.13.gem ( 66%)Fetching: activerecord-3.2.13.gem ( 69%)Fetching: activerecord-3.2.13.gem ( 70%)Fetching: activerecord-3.2.13.gem ( 71%)Fetching: activerecord-3.2.13.gem ( 72%)Fetching: activerecord-3.2.13.gem ( 73%)Fetching: activerecord-3.2.13.gem ( 74%)Fetching: activerecord-3.2.13.gem ( 75%)Fetching: activerecord-3.2.13.gem ( 76%)Fetching: activerecord-3.2.13.gem ( 77%)Fetching: activerecord-3.2.13.gem ( 80%)Fetching: activerecord-3.2.13.gem ( 82%)Fetching: activerecord-3.2.13.gem ( 85%)Fetching: activerecord-3.2.13.gem ( 86%)Fetching: activerecord-3.2.13.gem ( 87%)Fetching: activerecord-3.2.13.gem ( 88%)Fetching: activerecord-3.2.13.gem ( 89%)Fetching: activerecord-3.2.13.gem ( 91%)Fetching: activerecord-3.2.13.gem ( 92%)Fetching: activerecord-3.2.13.gem ( 95%)Fetching: activerecord-3.2.13.gem ( 96%)Fetching: activerecord-3.2.13.gem ( 97%)Fetching: activerecord-3.2.13.gem ( 99%)Fetching: activerecord-3.2.13.gem (100%)Fetching: activerecord-3.2.13.gem (100%)
+Fetching: activeresource-3.2.13.gemFetching: activeresource-3.2.13.gem (  4%)Fetching: activeresource-3.2.13.gem ( 20%)Fetching: activeresource-3.2.13.gem ( 23%)Fetching: activeresource-3.2.13.gem ( 35%)Fetching: activeresource-3.2.13.gem ( 39%)Fetching: activeresource-3.2.13.gem ( 42%)Fetching: activeresource-3.2.13.gem ( 46%)Fetching: activeresource-3.2.13.gem ( 50%)Fetching: activeresource-3.2.13.gem ( 54%)Fetching: activeresource-3.2.13.gem ( 58%)Fetching: activeresource-3.2.13.gem ( 61%)Fetching: activeresource-3.2.13.gem ( 65%)Fetching: activeresource-3.2.13.gem ( 73%)Fetching: activeresource-3.2.13.gem ( 80%)Fetching: activeresource-3.2.13.gem ( 84%)Fetching: activeresource-3.2.13.gem ( 92%)Fetching: activeresource-3.2.13.gem ( 96%)Fetching: activeresource-3.2.13.gem ( 99%)Fetching: activeresource-3.2.13.gem (100%)Fetching: activeresource-3.2.13.gem (100%)
+Fetching: mail-2.5.3.gemFetching: mail-2.5.3.gem (  2%)Fetching: mail-2.5.3.gem (  3%)Fetching: mail-2.5.3.gem (  4%)Fetching: mail-2.5.3.gem (  5%)Fetching: mail-2.5.3.gem (  9%)Fetching: mail-2.5.3.gem ( 10%)Fetching: mail-2.5.3.gem ( 11%)Fetching: mail-2.5.3.gem ( 12%)Fetching: mail-2.5.3.gem ( 13%)Fetching: mail-2.5.3.gem ( 17%)Fetching: mail-2.5.3.gem ( 18%)Fetching: mail-2.5.3.gem ( 21%)Fetching: mail-2.5.3.gem ( 22%)Fetching: mail-2.5.3.gem ( 23%)Fetching: mail-2.5.3.gem ( 27%)Fetching: mail-2.5.3.gem ( 28%)Fetching: mail-2.5.3.gem ( 29%)Fetching: mail-2.5.3.gem ( 30%)Fetching: mail-2.5.3.gem ( 32%)Fetching: mail-2.5.3.gem ( 33%)Fetching: mail-2.5.3.gem ( 34%)Fetching: mail-2.5.3.gem ( 35%)Fetching: mail-2.5.3.gem ( 38%)Fetching: mail-2.5.3.gem ( 41%)Fetching: mail-2.5.3.gem ( 42%)Fetching: mail-2.5.3.gem ( 43%)Fetching: mail-2.5.3.gem ( 44%)Fetching: mail-2.5.3.gem ( 45%)Fetching: mail-2.5.3.gem ( 46%)Fetching: mail-2.5.3.gem ( 47%)Fetching: mail-2.5.3.gem ( 48%)Fetching: mail-2.5.3.gem ( 52%)Fetching: mail-2.5.3.gem ( 53%)Fetching: mail-2.5.3.gem ( 54%)Fetching: mail-2.5.3.gem ( 57%)Fetching: mail-2.5.3.gem ( 59%)Fetching: mail-2.5.3.gem ( 62%)Fetching: mail-2.5.3.gem ( 63%)Fetching: mail-2.5.3.gem ( 64%)Fetching: mail-2.5.3.gem ( 65%)Fetching: mail-2.5.3.gem ( 66%)Fetching: mail-2.5.3.gem ( 68%)Fetching: mail-2.5.3.gem ( 69%)Fetching: mail-2.5.3.gem ( 70%)Fetching: mail-2.5.3.gem ( 73%)Fetching: mail-2.5.3.gem ( 74%)Fetching: mail-2.5.3.gem ( 75%)Fetching: mail-2.5.3.gem ( 76%)Fetching: mail-2.5.3.gem ( 78%)Fetching: mail-2.5.3.gem ( 79%)Fetching: mail-2.5.3.gem ( 80%)Fetching: mail-2.5.3.gem ( 81%)Fetching: mail-2.5.3.gem ( 82%)Fetching: mail-2.5.3.gem ( 83%)Fetching: mail-2.5.3.gem ( 84%)Fetching: mail-2.5.3.gem ( 87%)Fetching: mail-2.5.3.gem ( 88%)Fetching: mail-2.5.3.gem ( 89%)Fetching: mail-2.5.3.gem ( 91%)Fetching: mail-2.5.3.gem ( 92%)Fetching: mail-2.5.3.gem ( 93%)Fetching: mail-2.5.3.gem ( 94%)Fetching: mail-2.5.3.gem ( 95%)Fetching: mail-2.5.3.gem ( 96%)Fetching: mail-2.5.3.gem ( 97%)Fetching: mail-2.5.3.gem ( 98%)Fetching: mail-2.5.3.gem ( 99%)Fetching: mail-2.5.3.gem (100%)Fetching: mail-2.5.3.gem (100%)
+Fetching: actionmailer-3.2.13.gemFetching: actionmailer-3.2.13.gem ( 43%)Fetching: actionmailer-3.2.13.gem ( 50%)Fetching: actionmailer-3.2.13.gem ( 57%)Fetching: actionmailer-3.2.13.gem ( 70%)Fetching: actionmailer-3.2.13.gem ( 89%)Fetching: actionmailer-3.2.13.gem (100%)Fetching: actionmailer-3.2.13.gem (100%)
+Fetching: railties-3.2.13.gemFetching: railties-3.2.13.gem (  1%)Fetching: railties-3.2.13.gem (  2%)Fetching: railties-3.2.13.gem (  3%)Fetching: railties-3.2.13.gem (  4%)Fetching: railties-3.2.13.gem (  5%)Fetching: railties-3.2.13.gem (  6%)Fetching: railties-3.2.13.gem (  7%)Fetching: railties-3.2.13.gem (  8%)Fetching: railties-3.2.13.gem (  9%)Fetching: railties-3.2.13.gem ( 10%)Fetching: railties-3.2.13.gem ( 11%)Fetching: railties-3.2.13.gem ( 12%)Fetching: railties-3.2.13.gem ( 13%)Fetching: railties-3.2.13.gem ( 14%)Fetching: railties-3.2.13.gem ( 15%)Fetching: railties-3.2.13.gem ( 16%)Fetching: railties-3.2.13.gem ( 17%)Fetching: railties-3.2.13.gem ( 18%)Fetching: railties-3.2.13.gem ( 19%)Fetching: railties-3.2.13.gem ( 20%)Fetching: railties-3.2.13.gem ( 21%)Fetching: railties-3.2.13.gem ( 22%)Fetching: railties-3.2.13.gem ( 23%)Fetching: railties-3.2.13.gem ( 24%)Fetching: railties-3.2.13.gem ( 25%)Fetching: railties-3.2.13.gem ( 26%)Fetching: railties-3.2.13.gem ( 27%)Fetching: railties-3.2.13.gem ( 28%)Fetching: railties-3.2.13.gem ( 29%)Fetching: railties-3.2.13.gem ( 30%)Fetching: railties-3.2.13.gem ( 31%)Fetching: railties-3.2.13.gem ( 32%)Fetching: railties-3.2.13.gem ( 33%)Fetching: railties-3.2.13.gem ( 34%)Fetching: railties-3.2.13.gem ( 35%)Fetching: railties-3.2.13.gem ( 36%)Fetching: railties-3.2.13.gem ( 37%)Fetching: railties-3.2.13.gem ( 38%)Fetching: railties-3.2.13.gem ( 39%)Fetching: railties-3.2.13.gem ( 40%)Fetching: railties-3.2.13.gem ( 41%)Fetching: railties-3.2.13.gem ( 42%)Fetching: railties-3.2.13.gem ( 43%)Fetching: railties-3.2.13.gem ( 44%)Fetching: railties-3.2.13.gem ( 45%)Fetching: railties-3.2.13.gem ( 46%)Fetching: railties-3.2.13.gem ( 47%)Fetching: railties-3.2.13.gem ( 48%)Fetching: railties-3.2.13.gem ( 49%)Fetching: railties-3.2.13.gem ( 50%)Fetching: railties-3.2.13.gem ( 51%)Fetching: railties-3.2.13.gem ( 52%)Fetching: railties-3.2.13.gem ( 53%)Fetching: railties-3.2.13.gem ( 54%)Fetching: railties-3.2.13.gem ( 55%)Fetching: railties-3.2.13.gem ( 56%)Fetching: railties-3.2.13.gem ( 57%)Fetching: railties-3.2.13.gem ( 58%)Fetching: railties-3.2.13.gem ( 59%)Fetching: railties-3.2.13.gem ( 60%)Fetching: railties-3.2.13.gem ( 61%)Fetching: railties-3.2.13.gem ( 62%)Fetching: railties-3.2.13.gem ( 63%)Fetching: railties-3.2.13.gem ( 64%)Fetching: railties-3.2.13.gem ( 65%)Fetching: railties-3.2.13.gem ( 66%)Fetching: railties-3.2.13.gem ( 67%)Fetching: railties-3.2.13.gem ( 68%)Fetching: railties-3.2.13.gem ( 69%)Fetching: railties-3.2.13.gem ( 70%)Fetching: railties-3.2.13.gem ( 71%)Fetching: railties-3.2.13.gem ( 72%)Fetching: railties-3.2.13.gem ( 73%)Fetching: railties-3.2.13.gem ( 74%)Fetching: railties-3.2.13.gem ( 75%)Fetching: railties-3.2.13.gem ( 76%)Fetching: railties-3.2.13.gem ( 77%)Fetching: railties-3.2.13.gem ( 78%)Fetching: railties-3.2.13.gem ( 79%)Fetching: railties-3.2.13.gem ( 80%)Fetching: railties-3.2.13.gem ( 82%)Fetching: railties-3.2.13.gem ( 83%)Fetching: railties-3.2.13.gem ( 84%)Fetching: railties-3.2.13.gem ( 85%)Fetching: railties-3.2.13.gem ( 86%)Fetching: railties-3.2.13.gem ( 87%)Fetching: railties-3.2.13.gem ( 88%)Fetching: railties-3.2.13.gem ( 89%)Fetching: railties-3.2.13.gem ( 90%)Fetching: railties-3.2.13.gem ( 91%)Fetching: railties-3.2.13.gem ( 92%)Fetching: railties-3.2.13.gem ( 93%)Fetching: railties-3.2.13.gem ( 94%)Fetching: railties-3.2.13.gem ( 95%)Fetching: railties-3.2.13.gem ( 96%)Fetching: railties-3.2.13.gem ( 97%)Fetching: railties-3.2.13.gem ( 98%)Fetching: railties-3.2.13.gem ( 99%)Fetching: railties-3.2.13.gem (100%)Fetching: railties-3.2.13.gem (100%)
+Successfully installed wicked_pdf-0.9.4
+Successfully installed activesupport-3.2.13
+Successfully installed activemodel-3.2.13
+Successfully installed actionpack-3.2.13
+Successfully installed activerecord-3.2.13
+Successfully installed activeresource-3.2.13
+Successfully installed mail-2.5.3
+Successfully installed actionmailer-3.2.13
+Successfully installed railties-3.2.13
+9 gems installed
+Installing ri documentation for wicked_pdf-0.9.4...
+Installing ri documentation for activesupport-3.2.13...
+Installing ri documentation for activemodel-3.2.13...
+Installing ri documentation for actionpack-3.2.13...
+Installing ri documentation for activerecord-3.2.13...
+Installing ri documentation for activeresource-3.2.13...
+Installing ri documentation for mail-2.5.3...
+Installing ri documentation for actionmailer-3.2.13...
+Installing ri documentation for railties-3.2.13...
+Installing RDoc documentation for wicked_pdf-0.9.4...
+Installing RDoc documentation for activesupport-3.2.13...
+Installing RDoc documentation for activemodel-3.2.13...
+Installing RDoc documentation for actionpack-3.2.13...
+Installing RDoc documentation for activerecord-3.2.13...
+Installing RDoc documentation for activeresource-3.2.13...
+Installing RDoc documentation for mail-2.5.3...
+Installing RDoc documentation for actionmailer-3.2.13...
+Installing RDoc documentation for railties-3.2.13...
+]0;felipedaraujo@felipedaraujo: ~/Documentos/Woese/graficaandradefelipedaraujo@felipedaraujo:~/Documentos/Woese/graficaandrade$ bundle install
+Resolving dependencies...
+Using rake (10.0.3) 
+Using i18n (0.6.4) 
+Using multi_json (1.6.1) 
+Using activesupport (3.2.12) 
+Using builder (3.0.4) 
+Using activemodel (3.2.12) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.5) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.2) 
+Using hike (1.2.1) 
+Using tilt (1.3.5) 
+Using sprockets (2.2.2) 
+Using actionpack (3.2.12) 
+Using mime-types (1.21) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.12) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.12) 
+Using active_utils (1.0.5) 
+Using json (1.7.7) 
+Using money (5.0.0) 
+Using nokogiri (1.5.6) 
+Using activemerchant (1.29.3) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.37) 
+Using activerecord (3.2.12) 
+Using activeresource (3.2.12) 
+Using acts_as_list (0.1.4) 
+Using gyoku (1.0.0) 
+Using akami (1.2.0) 
+Using awesome_nested_set (2.1.5) 
+Using multi_xml (0.5.3) 
+Using httparty (0.8.3) 
+Using uuidtools (2.1.3) 
+Using aws-sdk (1.3.9) 
+Using bcrypt-ruby (3.0.1) 
+Using bundler (1.2.4) 
+Using cancan (1.6.8) 
+Using climate_control (0.0.3) 
+Using cocaine (0.5.1) 
+Using coffee-script-source (1.6.1) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.3) 
+Using rdoc (3.12.2) 
+Using thor (0.17.0) 
+Using railties (3.2.12) 
+Using coffee-rails (3.2.2) 
+Using log-me (0.0.4) 
+Using sax-machine (0.1.0) 
+Using correios-frete (1.5.2) 
+Using rubyzip (0.9.9) 
+Using ruby-ole (1.2.11.6) 
+Using spreadsheet (0.8.3) 
+Using datashift (0.13.0) 
+Using unf_ext (0.0.6) 
+Using unf (0.1.1) 
+Using domain_name (0.5.10) 
+Using net-http-digest_auth (1.3) 
+Using net-http-persistent (2.8) 
+Using ntlm-http (0.1.1) 
+Using webrobots (0.1.1) 
+Using mechanize (2.6.0) 
+Using datashift_spree (0.5.0) 
+Using rails (3.2.12) 
+Using deface (0.9.1) 
+Using orm_adapter (0.4.0) 
+Using warden (1.2.1) 
+Using devise (2.2.3) 
+Using devise-encryptable (0.1.1) 
+Using ffaker (1.12.1) 
+Using haml (4.0.0) 
+Using highline (1.6.11) 
+Using httpi (2.0.2) 
+Using jquery-rails (2.2.1) 
+Using kaminari (0.13.0) 
+Using nori (2.0.4) 
+Using rest-client (1.6.7) 
+Using pag_seguro (0.4.1) 
+Using paperclip (2.8.0) 
+Using polyamorous (0.5.0) 
+Using rabl (0.7.2) 
+Using rails-i18n (0.7.2) 
+Using ransack (0.7.2) 
+Using sass (3.2.7) 
+Using sass-rails (3.2.6) 
+Using wasabi (3.0.0) 
+Using savon (2.1.0) 
+Using select2-rails (3.3.1) 
+Using state_machine (1.1.2) 
+Using stringex (1.3.3) 
+Using spree_core (1.3.2) 
+Using versioncake (0.4.0) 
+Using spree_api (1.3.2) 
+Using spree_cmd (1.3.2) 
+Using spree_dash (1.3.2) 
+Using spree_promo (1.3.2) 
+Using spree_sample (1.3.2) 
+Using spree (1.3.2) 
+Using spree_auth_devise (1.0.0) from git://github.com/spree/spree_auth_devise.git (at 1-3-stable) 
+Using spree_correios (1.0.4) 
+Using spree_gateway (1.2.0.rc2) from git://github.com/spree/spree_gateway.git (at 1-3-stable) 
+Using spree_i18n (1.0.0) from git://github.com/spree/spree_i18n.git (at master) 
+Using spree_pag_seguro (1.0.7) 
+Using spree_slider (1.2.0) 
+Using sqlite3 (1.3.7) 
+Using uglifier (1.3.0) 
+Using wicked_pdf (0.9.4) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;felipedaraujo@felipedaraujo: ~/Documentos/Woese/graficaandradefelipedaraujo@felipedaraujo:~/Documentos/Woese/graficaandrade$ [K]0;felipedaraujo@felipedaraujo: ~/Documentos/Woese/graficaandradefelipedaraujo@felipedaraujo:~/Documentos/Woese/graficaandrade$ [K]0;felipedaraujo@felipedaraujo: ~/Documentos/Woese/graficaandradefelipedaraujo@felipedaraujo:~/Documentos/Woese/graficaandrade$ [K]0;felipedaraujo@felipedaraujo: ~/Documentos/Woese/graficaandradefelipedaraujo@felipedaraujo:~/Documentos/Woese/graficaandrade$ [K]0;felipedaraujo@felipedaraujo: ~/Documentos/Woese/graficaandradefelipedaraujo@felipedaraujo:~/Documentos/Woese/graficaandrade$ [K]0;felipedaraujo@felipedaraujo: ~/Documentos/Woese/graficaandradefelipedaraujo@felipedaraujo:~/Documentos/Woese/graficaandrade$ [K]0;felipedaraujo@felipedaraujo: ~/Documentos/Woese/graficaandradefelipedaraujo@felipedaraujo:~/Documentos/Woese/graficaandrade$ bundle installgem install wicked_pdfexit[Krails sbundle exec thor datashift:generate:excel -m Spree::Product -r spree_product_template.xlls -a  --remove-rails[K[K[K[K[K[K[A]0;felipedaraujo@felipedaraujo: ~/Documentos/Woese/graficaandradefelipedaraujo@felipedaraujo:~/Documentos/Woese/graficaandrade$ rails s[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pexitgem install wicked_pdfexit[K[K[K[K[Kcd ..
+]0;felipedaraujo@felipedaraujo: ~/Documentos/Woesefelipedaraujo@felipedaraujo:~/Documentos/Woese$ cd ..
+]0;felipedaraujo@felipedaraujo: ~/Documentosfelipedaraujo@felipedaraujo:~/Documentos$ cd[K[Kcd inponto[Ko
+]0;felipedaraujo@felipedaraujo: ~/Documentos/inpontofelipedaraujo@felipedaraujo:~/Documentos/inponto$ git branc[Kch [K
+  master
+  origin/servidor
+  version_1.0.0
+* version_1.1.0
+]0;felipedaraujo@felipedaraujo: ~/Documentos/inpontofelipedaraujo@felipedaraujo:~/Documentos/inponto$ rails s
+=> Booting Thin
+=> Rails 3.2.1 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+Exiting
+/home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/eventmachine-1.0.0/lib/eventmachine.rb:526:in `start_tcp_server': no acceptor (port is in use or requires root privileges) (RuntimeError)
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/eventmachine-1.0.0/lib/eventmachine.rb:526:in `start_server'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/thin-1.5.0/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/thin-1.5.0/lib/thin/backends/base.rb:55:in `block in start'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/eventmachine-1.0.0/lib/eventmachine.rb:187:in `call'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/eventmachine-1.0.0/lib/eventmachine.rb:187:in `run_machine'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/thin-1.5.0/lib/thin/server.rb:159:in `start'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/rack-1.4.1/lib/rack/handler/thin.rb:13:in `run'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/rack-1.4.1/lib/rack/server.rb:265:in `start'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/railties-3.2.1/lib/rails/commands/server.rb:70:in `start'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/railties-3.2.1/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/railties-3.2.1/lib/rails/commands.rb:50:in `tap'
+	from /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/railties-3.2.1/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+]0;felipedaraujo@felipedaraujo: ~/Documentos/inpontofelipedaraujo@felipedaraujo:~/Documentos/inponto$ [K]0;felipedaraujo@felipedaraujo: ~/Documentos/inpontofelipedaraujo@felipedaraujo:~/Documentos/inponto$ rails s
+=> Booting Thin
+=> Rails 3.2.1 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 15:52:56 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 634ms (Views: 633.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /jquery.js - 200 OK (35ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /jquery-ui.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /purl.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /about.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /jquery-ui.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /application.css - 304 Not Modified (39ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /simulation.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /about.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 15:53:00 -0300
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 15:53:01 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (20ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/home/routes-by-point/?point=-3.732947,-38.49884099999997" for 127.0.0.1 at 2013-04-02 15:53:10 -0300
+Processing by HomeController#search_route_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997"}
+  [1m[36mRoute Load (1385.3ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (1.1ms)[0m  EXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=22)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=22)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+Completed 200 OK in 2654ms (Views: 48.6ms | ActiveRecord: 2089.6ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.729686994670071,-38.49156684915158,-3.7362069932278974,-38.50611515084836" for 127.0.0.1 at 2013-04-02 15:53:13 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.729686994670071,-38.49156684915158,-3.7362069932278974,-38.50611515084836"}
+  [1m[36mPointStop Load (34.3ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.729686994670071 -38.49156684915158,-3.7362069932278974 -38.49156684915158,-3.7362069932278974 -38.50611515084836,-3.729686994670071 -38.50611515084836,-3.729686994670071 -38.49156684915158))'))[0m
+Completed 200 OK in 140ms (Views: 1.1ms | ActiveRecord: 37.1ms)
+
+
+Started GET "/home/routes-bytwo-point/?point=-3.732947,-38.49884099999997,-3.800625,-38.548985000000016" for 127.0.0.1 at 2013-04-02 15:53:17 -0300
+Processing by HomeController#search_route_two_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997,-3.800625,-38.548985000000016"}
+  [1m[35mRoute Load (1261.4ms)[0m  SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.7ms)[0m  [1mEXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                                                                                                             QUERY PLAN
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=580.58..580.93 rows=35 width=22)
+   ->  Seq Scan on routes  (cost=0.00..580.24 rows=68 width=22)
+         Filter: ((_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision) AND (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision))
+(3 rows)
+
+  [1m[35mRoute Load (1127.0ms)[0m  SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.5ms)[0m  [1mEXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=83)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=83)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[35mPointStop Load (40.0ms)[0m  SELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist
+  [1m[36mRoute Load (1118.0ms)[0m  [1mSELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.5ms)[0m  EXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=83)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=83)
+         Filter: (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[36mPointStop Load (1.8ms)[0m  [1mSELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist[0m
+  [1m[35mPointStop Load (13.7ms)[0m  SELECT next_to, ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = '') LIMIT 1
+Completed 200 OK in 3576ms (Views: 0.4ms | ActiveRecord: 3563.5ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.760502413530868,-38.4577804545288,-3.7735419023348014,-38.48687705792236" for 127.0.0.1 at 2013-04-02 15:55:48 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.760502413530868,-38.4577804545288,-3.7735419023348014,-38.48687705792236"}
+  [1m[36mPointStop Load (7.8ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.760502413530868 -38.4577804545288,-3.7735419023348014 -38.4577804545288,-3.7735419023348014 -38.48687705792236,-3.760502413530868 -38.48687705792236,-3.760502413530868 -38.4577804545288))'))[0m
+Completed 200 OK in 13ms (Views: 1.1ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.7610537587602733,-38.45790920056152,-3.767573523458377,-38.472457502258294" for 127.0.0.1 at 2013-04-02 15:55:50 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.7610537587602733,-38.45790920056152,-3.767573523458377,-38.472457502258294"}
+  [1m[35mPointStop Load (6.9ms)[0m  SELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.7610537587602733 -38.45790920056152,-3.767573523458377 -38.45790920056152,-3.767573523458377 -38.472457502258294,-3.7610537587602733 -38.472457502258294,-3.7610537587602733 -38.45790920056152))'))
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.762143066028018,-38.45852074421691,-3.765402950402072,-38.4657948950653" for 127.0.0.1 at 2013-04-02 15:55:52 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.762143066028018,-38.45852074421691,-3.765402950402072,-38.4657948950653"}
+  [1m[36mPointStop Load (4.9ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.762143066028018 -38.45852074421691,-3.765402950402072 -38.45852074421691,-3.765402950402072 -38.4657948950653,-3.762143066028018 -38.4657948950653,-3.762143066028018 -38.45852074421691))'))[0m
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.7623946503139787,-38.46160528458404,-3.7656545337463467,-38.46887943543243" for 127.0.0.1 at 2013-04-02 15:55:55 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.7623946503139787,-38.46160528458404,-3.7656545337463467,-38.46887943543243"}
+  [1m[35mPointStop Load (3.8ms)[0m  SELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.7623946503139787 -38.46160528458404,-3.7656545337463467 -38.46160528458404,-3.7656545337463467 -38.46887943543243,-3.7623946503139787 -38.46887943543243,-3.7623946503139787 -38.46160528458404))'))
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.7626569402368992,-38.4654891232376,-3.7659168226874424,-38.47276327408599" for 127.0.0.1 at 2013-04-02 15:55:56 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.7626569402368992,-38.4654891232376,-3.7659168226874424,-38.47276327408599"}
+  [1m[36mPointStop Load (3.8ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.7626569402368992 -38.4654891232376,-3.7659168226874424 -38.4654891232376,-3.7659168226874424 -38.47276327408599,-3.7626569402368992 -38.47276327408599,-3.7626569402368992 -38.4654891232376))'))[0m
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.7614231063402412,-38.46353111065673,-3.7679428682729674,-38.47807941235351" for 127.0.0.1 at 2013-04-02 15:55:57 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.7614231063402412,-38.46353111065673,-3.7679428682729674,-38.47807941235351"}
+  [1m[35mPointStop Load (8.7ms)[0m  SELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.7614231063402412 -38.46353111065673,-3.7679428682729674 -38.46353111065673,-3.7679428682729674 -38.47807941235351,-3.7614231063402412 -38.47807941235351,-3.7614231063402412 -38.46353111065673))'))
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.761936980973701,-38.46765098370361,-3.768456739058503,-38.482199285400384" for 127.0.0.1 at 2013-04-02 15:55:58 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.761936980973701,-38.46765098370361,-3.768456739058503,-38.482199285400384"}
+  [1m[36mPointStop Load (5.4ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.761936980973701 -38.46765098370361,-3.768456739058503 -38.46765098370361,-3.768456739058503 -38.482199285400384,-3.761936980973701 -38.482199285400384,-3.761936980973701 -38.46765098370361))'))[0m
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.7586770836328944,-38.46037683285522,-3.771716599781507,-38.48947343624877" for 127.0.0.1 at 2013-04-02 15:55:58 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.7586770836328944,-38.46037683285522,-3.771716599781507,-38.48947343624877"}
+  [1m[35mPointStop Load (5.0ms)[0m  SELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.7586770836328944 -38.46037683285522,-3.771716599781507 -38.46037683285522,-3.771716599781507 -38.48947343624877,-3.7586770836328944 -38.48947343624877,-3.7586770836328944 -38.46037683285522))'))
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.7583987338698734,-38.46949634350585,-3.771438254187201,-38.49859294689941" for 127.0.0.1 at 2013-04-02 15:55:59 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.7583987338698734,-38.46949634350585,-3.771438254187201,-38.49859294689941"}
+  [1m[36mPointStop Load (4.7ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.7583987338698734 -38.46949634350585,-3.771438254187201 -38.46949634350585,-3.771438254187201 -38.49859294689941,-3.7583987338698734 -38.49859294689941,-3.7583987338698734 -38.46949634350585))'))[0m
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.7588911987747564,-38.476641748321526,-3.7719307117164536,-38.50573835171508" for 127.0.0.1 at 2013-04-02 15:56:01 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.7588911987747564,-38.476641748321526,-3.7719307117164536,-38.50573835171508"}
+  [1m[35mPointStop Load (7.3ms)[0m  SELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.7588911987747564 -38.476641748321526,-3.7719307117164536 -38.476641748321526,-3.7719307117164536 -38.50573835171508,-3.7588911987747564 -38.50573835171508,-3.7588911987747564 -38.476641748321526))'))
+Completed 200 OK in 11ms (Views: 0.8ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 15:56:02 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /about.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /jquery-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /purl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /simulation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 15:56:03 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (30ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home/routes-by-point/?point=-3.732947,-38.49884099999997" for 127.0.0.1 at 2013-04-02 15:56:07 -0300
+Processing by HomeController#search_route_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997"}
+  [1m[36mRoute Load (1084.8ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.8ms)[0m  EXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=22)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=22)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+Completed 200 OK in 1098ms (Views: 11.7ms | ActiveRecord: 1085.6ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.729686994670071,-38.49156684915158,-3.7362069932278974,-38.50611515084836" for 127.0.0.1 at 2013-04-02 15:56:08 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.729686994670071,-38.49156684915158,-3.7362069932278974,-38.50611515084836"}
+  [1m[36mPointStop Load (10.8ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.729686994670071 -38.49156684915158,-3.7362069932278974 -38.49156684915158,-3.7362069932278974 -38.50611515084836,-3.729686994670071 -38.50611515084836,-3.729686994670071 -38.49156684915158))'))[0m
+Completed 200 OK in 14ms (Views: 0.6ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/home/routes-bytwo-point/?point=-3.732947,-38.49884099999997,-3.800625,-38.548985000000016" for 127.0.0.1 at 2013-04-02 15:56:12 -0300
+Processing by HomeController#search_route_two_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997,-3.800625,-38.548985000000016"}
+  [1m[35mRoute Load (1212.4ms)[0m  SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.7ms)[0m  [1mEXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                                                                                                             QUERY PLAN
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=580.58..580.93 rows=35 width=22)
+   ->  Seq Scan on routes  (cost=0.00..580.24 rows=68 width=22)
+         Filter: ((_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision) AND (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision))
+(3 rows)
+
+  [1m[35mRoute Load (1068.5ms)[0m  SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.6ms)[0m  [1mEXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=83)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=83)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[35mPointStop Load (1.7ms)[0m  SELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist
+  [1m[36mRoute Load (1063.7ms)[0m  [1mSELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.6ms)[0m  EXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=83)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=83)
+         Filter: (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[36mPointStop Load (1.7ms)[0m  [1mSELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist[0m
+  [1m[35mPointStop Load (1.3ms)[0m  SELECT next_to, ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = '') LIMIT 1
+Completed 200 OK in 3366ms (Views: 0.3ms | ActiveRecord: 3351.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /about.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /jquery-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /purl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /simulation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:24 -0300
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 15:56:25 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /about.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /jquery-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /purl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /simulation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 15:56:45 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 15:56:46 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home/routes-by-point/?point=-3.732947,-38.49884099999997" for 127.0.0.1 at 2013-04-02 15:56:50 -0300
+Processing by HomeController#search_route_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997"}
+  [1m[36mRoute Load (1085.2ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.7ms)[0m  EXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=22)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=22)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+Completed 200 OK in 1097ms (Views: 10.7ms | ActiveRecord: 1085.9ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.7319727468010155,-38.49156684915158,-3.7339212521180962,-38.50611515084836" for 127.0.0.1 at 2013-04-02 15:56:51 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.7319727468010155,-38.49156684915158,-3.7339212521180962,-38.50611515084836"}
+  [1m[36mPointStop Load (7.2ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.7319727468010155 -38.49156684915158,-3.7339212521180962 -38.49156684915158,-3.7339212521180962 -38.50611515084836,-3.7319727468010155 -38.50611515084836,-3.7319727468010155 -38.49156684915158))'))[0m
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/home/routes-bytwo-point/?point=-3.732947,-38.49884099999997,-3.800625,-38.548985000000016" for 127.0.0.1 at 2013-04-02 15:56:55 -0300
+Processing by HomeController#search_route_two_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997,-3.800625,-38.548985000000016"}
+  [1m[35mRoute Load (1219.7ms)[0m  SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.7ms)[0m  [1mEXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                                                                                                             QUERY PLAN
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=580.58..580.93 rows=35 width=22)
+   ->  Seq Scan on routes  (cost=0.00..580.24 rows=68 width=22)
+         Filter: ((_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision) AND (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision))
+(3 rows)
+
+  [1m[35mRoute Load (1073.3ms)[0m  SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.6ms)[0m  [1mEXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=83)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=83)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[35mPointStop Load (3.5ms)[0m  SELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist
+  [1m[36mRoute Load (1066.0ms)[0m  [1mSELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.6ms)[0m  EXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=83)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=83)
+         Filter: (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[36mPointStop Load (1.7ms)[0m  [1mSELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist[0m
+  [1m[35mPointStop Load (1.2ms)[0m  SELECT next_to, ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = '') LIMIT 1
+Completed 200 OK in 3382ms (Views: 0.3ms | ActiveRecord: 3367.4ms)
+^C>> Stopping ...
+Exiting
+]0;felipedaraujo@felipedaraujo: ~/Documentos/inpontofelipedaraujo@felipedaraujo:~/Documentos/inponto$ rails s
+=> Booting Thin
+=> Rails 3.2.1 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 87ms (Views: 86.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /about.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /jquery-ui.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /about.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /purl.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 15:58:46 -0300
+Served asset /simulation.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 15:58:47 -0300
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 15:58:47 -0300
+Served asset /jquery-ui.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 15:58:47 -0300
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 15:58:47 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/routes-by-point/?point=-3.732947,-38.49884099999997" for 127.0.0.1 at 2013-04-02 15:58:51 -0300
+Processing by HomeController#search_route_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997"}
+  [1m[36mRoute Load (1095.5ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.7ms)[0m  EXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=22)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=22)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+Completed 200 OK in 1216ms (Views: 43.6ms | ActiveRecord: 1111.6ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.732036983308943,-38.49156684915158,-3.7338570157479887,-38.50611515084836" for 127.0.0.1 at 2013-04-02 15:58:53 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.732036983308943,-38.49156684915158,-3.7338570157479887,-38.50611515084836"}
+  [1m[36mPointStop Load (4.7ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.732036983308943 -38.49156684915158,-3.7338570157479887 -38.49156684915158,-3.7338570157479887 -38.50611515084836,-3.732036983308943 -38.50611515084836,-3.732036983308943 -38.49156684915158))'))[0m
+Completed 200 OK in 29ms (Views: 0.4ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.732036983308943,-38.491727781692475,-3.733407361025673,-38.50611515084836" for 127.0.0.1 at 2013-04-02 16:01:07 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.732036983308943,-38.491727781692475,-3.733407361025673,-38.50611515084836"}
+  [1m[35mPointStop Load (3.9ms)[0m  SELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.732036983308943 -38.491727781692475,-3.733407361025673 -38.491727781692475,-3.733407361025673 -38.50611515084836,-3.732036983308943 -38.50611515084836,-3.732036983308943 -38.491727781692475))'))
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /about.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /jquery-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /purl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /simulation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 16:01:14 -0300
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 16:01:15 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/routes-by-point/?point=-3.732947,-38.49884099999997" for 127.0.0.1 at 2013-04-02 16:01:19 -0300
+Processing by HomeController#search_route_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997"}
+  [1m[36mRoute Load (1084.0ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.6ms)[0m  EXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=22)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=22)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+Completed 200 OK in 1095ms (Views: 10.5ms | ActiveRecord: 1084.6ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.7320691015611387,-38.49156684915158,-3.7338248975611728,-38.50611515084836" for 127.0.0.1 at 2013-04-02 16:01:20 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.7320691015611387,-38.49156684915158,-3.7338248975611728,-38.50611515084836"}
+  [1m[36mPointStop Load (6.6ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.7320691015611387 -38.49156684915158,-3.7338248975611728 -38.49156684915158,-3.7338248975611728 -38.50611515084836,-3.7320691015611387 -38.50611515084836,-3.7320691015611387 -38.49156684915158))'))[0m
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/home/routes-bytwo-point/?point=-3.732947,-38.49884099999997,-3.800625,-38.548985000000016" for 127.0.0.1 at 2013-04-02 16:01:23 -0300
+Processing by HomeController#search_route_two_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997,-3.800625,-38.548985000000016"}
+  [1m[35mRoute Load (1207.5ms)[0m  SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.7ms)[0m  [1mEXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                                                                                                             QUERY PLAN
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=580.58..580.93 rows=35 width=22)
+   ->  Seq Scan on routes  (cost=0.00..580.24 rows=68 width=22)
+         Filter: ((_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision) AND (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision))
+(3 rows)
+
+  [1m[35mRoute Load (1068.5ms)[0m  SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.6ms)[0m  [1mEXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=83)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=83)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[35mPointStop Load (2.7ms)[0m  SELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist
+  [1m[36mRoute Load (1074.2ms)[0m  [1mSELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.6ms)[0m  EXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=83)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=83)
+         Filter: (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[36mPointStop Load (1.7ms)[0m  [1mSELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist[0m
+  [1m[35mPointStop Load (1.6ms)[0m  SELECT next_to, ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = '') LIMIT 1
+Completed 200 OK in 3376ms (Views: 0.5ms | ActiveRecord: 3357.9ms)
+^C>> Stopping ...
+Exiting
+]0;felipedaraujo@felipedaraujo: ~/Documentos/inpontofelipedaraujo@felipedaraujo:~/Documentos/inponto$ rails s
+=> Booting Thin
+=> Rails 3.2.1 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 16:03:11 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 92ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /about.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /jquery-ui.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /about.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /purl.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /simulation.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /jquery-ui.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 16:03:12 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/routes-by-point/?point=-3.732947,-38.49884099999997" for 127.0.0.1 at 2013-04-02 16:03:16 -0300
+Processing by HomeController#search_route_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997"}
+  [1m[36mRoute Load (1133.7ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.7ms)[0m  EXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=22)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=22)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+Completed 200 OK in 1246ms (Views: 39.7ms | ActiveRecord: 1146.1ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.732101219812189,-38.49156684915158,-3.733792779373186,-38.50611515084836" for 127.0.0.1 at 2013-04-02 16:03:17 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.732101219812189,-38.49156684915158,-3.733792779373186,-38.50611515084836"}
+  [1m[36mPointStop Load (7.1ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.732101219812189 -38.49156684915158,-3.733792779373186 -38.49156684915158,-3.733792779373186 -38.50611515084836,-3.732101219812189 -38.50611515084836,-3.732101219812189 -38.49156684915158))'))[0m
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 12.8ms)
+
+
+Started GET "/home/routes-bytwo-point/?point=-3.732947,-38.49884099999997,-3.800625,-38.548985000000016" for 127.0.0.1 at 2013-04-02 16:03:20 -0300
+Processing by HomeController#search_route_two_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997,-3.800625,-38.548985000000016"}
+  [1m[35mRoute Load (1202.0ms)[0m  SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.7ms)[0m  [1mEXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                                                                                                             QUERY PLAN
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=580.58..580.93 rows=35 width=22)
+   ->  Seq Scan on routes  (cost=0.00..580.24 rows=68 width=22)
+         Filter: ((_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision) AND (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision))
+(3 rows)
+
+  [1m[35mRoute Load (1083.2ms)[0m  SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.5ms)[0m  [1mEXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=83)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=83)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[35mPointStop Load (2.0ms)[0m  SELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist
+  [1m[36mRoute Load (1067.1ms)[0m  [1mSELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.6ms)[0m  EXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=83)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=83)
+         Filter: (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[36mPointStop Load (1.8ms)[0m  [1mSELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist[0m
+  [1m[35mPointStop Load (1.7ms)[0m  SELECT next_to, ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = '') LIMIT 1
+Completed 200 OK in 3374ms (Views: 0.5ms | ActiveRecord: 3359.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 16:06:34 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /about.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /jquery-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /purl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /simulation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 16:06:35 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/routes-by-point/?point=-3.732947,-38.49884099999997" for 127.0.0.1 at 2013-04-02 16:06:44 -0300
+Processing by HomeController#search_route_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997"}
+  [1m[36mRoute Load (1098.8ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (1.1ms)[0m  EXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=22)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=22)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+Completed 200 OK in 1109ms (Views: 8.5ms | ActiveRecord: 1099.8ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.732165456310715,-38.49156684915158,-3.7337285429936893,-38.50611515084836" for 127.0.0.1 at 2013-04-02 16:06:45 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.732165456310715,-38.49156684915158,-3.7337285429936893,-38.50611515084836"}
+  [1m[36mPointStop Load (6.9ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.732165456310715 -38.49156684915158,-3.7337285429936893 -38.49156684915158,-3.7337285429936893 -38.50611515084836,-3.732165456310715 -38.50611515084836,-3.732165456310715 -38.49156684915158))'))[0m
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/home/routes-bytwo-point/?point=-3.732947,-38.49884099999997,-3.800625,-38.548985000000016" for 127.0.0.1 at 2013-04-02 16:06:48 -0300
+Processing by HomeController#search_route_two_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997,-3.800625,-38.548985000000016"}
+  [1m[35mRoute Load (1206.2ms)[0m  SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.7ms)[0m  [1mEXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                                                                                                             QUERY PLAN
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=580.58..580.93 rows=35 width=22)
+   ->  Seq Scan on routes  (cost=0.00..580.24 rows=68 width=22)
+         Filter: ((_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision) AND (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision))
+(3 rows)
+
+  [1m[35mRoute Load (1088.9ms)[0m  SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.6ms)[0m  [1mEXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=83)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=83)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[35mPointStop Load (5.4ms)[0m  SELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist
+  [1m[36mRoute Load (1065.4ms)[0m  [1mSELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.6ms)[0m  EXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=425.20..426.25 rows=105 width=83)
+   ->  Seq Scan on routes  (cost=0.00..424.18 rows=204 width=83)
+         Filter: (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[36mPointStop Load (1.7ms)[0m  [1mSELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist[0m
+  [1m[35mPointStop Load (1.2ms)[0m  SELECT next_to, ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = '') LIMIT 1
+Completed 200 OK in 3385ms (Views: 0.4ms | ActiveRecord: 3370.7ms)
+^C>> Stopping ...
+Exiting
+]0;felipedaraujo@felipedaraujo: ~/Documentos/inpontofelipedaraujo@felipedaraujo:~/Documentos/inponto$ rails s
+=> Booting Thin
+=> Rails 3.2.1 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 87ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /about.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /jquery-ui.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /about.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /purl.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 16:15:39 -0300
+Served asset /simulation.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 16:15:40 -0300
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 16:15:40 -0300
+Served asset /jquery-ui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 16:15:40 -0300
+Served asset /application.js - 200 OK (15ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 16:15:40 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/routes-by-point/?point=-38.49884099999997,undefined" for 127.0.0.1 at 2013-04-02 16:15:44 -0300
+Processing by HomeController#search_route_point as JSON
+  Parameters: {"point"=>"-38.49884099999997,undefined"}
+  [1m[36mRoute Load (27.1ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-38.49884099999997 undefined)'::geography, path::geography) <= 500)[0m
+PG::Error: ERROR:  parse error - invalid geometry
+LINE 1: ...oute, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-38...
+                                                             ^
+HINT:  "POINT(-38.49884099999997 " <-- parse error at position 25 within geometry
+: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-38.49884099999997 undefined)'::geography, path::geography) <= 500)
+Completed 500 Internal Server Error in 99ms
+
+ActiveRecord::StatementInvalid (PG::Error: ERROR:  parse error - invalid geometry
+LINE 1: ...oute, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-38...
+                                                             ^
+HINT:  "POINT(-38.49884099999997 " <-- parse error at position 25 within geometry
+: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-38.49884099999997 undefined)'::geography, path::geography) <= 500)):
+  app/controllers/home_controller.rb:44:in `search_route_point'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (13.9ms)
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.2ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.7320423363510544,-38.49156684915158,-3.733851662716946,-38.50611515084836" for 127.0.0.1 at 2013-04-02 16:15:44 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.7320423363510544,-38.49156684915158,-3.733851662716946,-38.50611515084836"}
+  [1m[35mPointStop Load (4.4ms)[0m  SELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.7320423363510544 -38.49156684915158,-3.733851662716946 -38.49156684915158,-3.733851662716946 -38.50611515084836,-3.7320423363510544 -38.50611515084836,-3.7320423363510544 -38.49156684915158))'))
+Completed 200 OK in 25ms (Views: 0.3ms | ActiveRecord: 7.2ms)
+^C>> Stopping ...
+Exiting
+]0;felipedaraujo@felipedaraujo: ~/Documentos/inpontofelipedaraujo@felipedaraujo:~/Documentos/inponto$ rails s
+=> Booting Thin
+=> Rails 3.2.1 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 16:16:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Compiled about.css  (130ms)  (pid 20536)
+Compiled bootstrap.css  (0ms)  (pid 20536)
+Compiled home.css  (27ms)  (pid 20536)
+Compiled jquery-ui.css  (0ms)  (pid 20536)
+Compiled scaffolds.css  (26ms)  (pid 20536)
+Compiled users.css  (12ms)  (pid 20536)
+Compiled application.css  (260ms)  (pid 20536)
+Compiled simulation.js  (0ms)  (pid 20536)
+Compiled about.js  (145ms)  (pid 20536)
+Compiled bootstrap.js  (0ms)  (pid 20536)
+Compiled bootstrap.min.js  (0ms)  (pid 20536)
+Compiled home.js  (0ms)  (pid 20536)
+Compiled purl.js  (0ms)  (pid 20536)
+Compiled users.js  (0ms)  (pid 20536)
+Compiled application.js  (236ms)  (pid 20536)
+Completed 200 OK in 623ms (Views: 622.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /about.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /bootstrap.css - 200 OK (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /jquery-ui.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /simulation.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /about.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /purl.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /jquery-ui.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /application.js - 200 OK (17ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 16:16:18 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /about.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /bootstrap.css - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /jquery-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /purl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /simulation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 16:34:35 -0300
+Served asset /application.js - 200 OK (18ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 16:34:36 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home/routes-by-point/?point=-38.49884099999997,undefined" for 127.0.0.1 at 2013-04-02 16:34:44 -0300
+Processing by HomeController#search_route_point as JSON
+  Parameters: {"point"=>"-38.49884099999997,undefined"}
+  [1m[36mRoute Load (29.3ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-38.49884099999997 undefined)'::geography, path::geography) <= 500)[0m
+PG::Error: ERROR:  parse error - invalid geometry
+LINE 1: ...oute, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-38...
+                                                             ^
+HINT:  "POINT(-38.49884099999997 " <-- parse error at position 25 within geometry
+: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-38.49884099999997 undefined)'::geography, path::geography) <= 500)
+Completed 500 Internal Server Error in 553ms
+
+ActiveRecord::StatementInvalid (PG::Error: ERROR:  parse error - invalid geometry
+LINE 1: ...oute, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-38...
+                                                             ^
+HINT:  "POINT(-38.49884099999997 " <-- parse error at position 25 within geometry
+: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-38.49884099999997 undefined)'::geography, path::geography) <= 500)):
+  app/controllers/home_controller.rb:48:in `search_route_point'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.7ms)
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.7309610211814563,-38.49156684915158,-3.734932974327223,-38.50611515084836" for 127.0.0.1 at 2013-04-02 16:34:44 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.7309610211814563,-38.49156684915158,-3.734932974327223,-38.50611515084836"}
+  [1m[35mPointStop Load (109.0ms)[0m  SELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.7309610211814563 -38.49156684915158,-3.734932974327223 -38.49156684915158,-3.734932974327223 -38.50611515084836,-3.7309610211814563 -38.50611515084836,-3.7309610211814563 -38.49156684915158))'))
+Completed 200 OK in 141ms (Views: 0.5ms | ActiveRecord: 113.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 16:35:39 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Compiled jquery.js  (25ms)  (pid 20536)
+Compiled jquery_ujs.js  (0ms)  (pid 20536)
+Compiled about.js  (0ms)  (pid 20536)
+Compiled bootstrap.js  (0ms)  (pid 20536)
+Compiled bootstrap.min.js  (0ms)  (pid 20536)
+Compiled home.js  (0ms)  (pid 20536)
+Compiled purl.js  (0ms)  (pid 20536)
+Compiled simulation.js  (0ms)  (pid 20536)
+Compiled users.js  (0ms)  (pid 20536)
+Compiled jquery-ui.js  (25ms)  (pid 20536)
+Compiled application.js  (101ms)  (pid 20536)
+Completed 200 OK in 152ms (Views: 151.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 16:35:39 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 16:35:39 -0300
+Served asset /about.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-02 16:35:39 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 16:35:39 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /jquery-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /purl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /simulation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /application.js - 200 OK (15ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 16:35:40 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/routes-by-point/?point=-3.732947,-38.49884099999997" for 127.0.0.1 at 2013-04-02 16:35:44 -0300
+Processing by HomeController#search_route_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997"}
+  [1m[36mRoute Load (1183.9ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.7ms)[0m  EXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=420.20..421.25 rows=105 width=23)
+   ->  Seq Scan on routes  (cost=0.00..419.18 rows=204 width=23)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+Completed 200 OK in 1210ms (Views: 25.2ms | ActiveRecord: 1184.6ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.7309610211814563,-38.49156684915158,-3.734932974327223,-38.50611515084836" for 127.0.0.1 at 2013-04-02 16:35:46 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.7309610211814563,-38.49156684915158,-3.734932974327223,-38.50611515084836"}
+  [1m[36mPointStop Load (6.7ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.7309610211814563 -38.49156684915158,-3.734932974327223 -38.49156684915158,-3.734932974327223 -38.50611515084836,-3.7309610211814563 -38.50611515084836,-3.7309610211814563 -38.49156684915158))'))[0m
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/home/routes-bytwo-point/?point=-3.732947,-38.49884099999997,-3.800625,-38.548985000000016" for 127.0.0.1 at 2013-04-02 16:35:49 -0300
+Processing by HomeController#search_route_two_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997,-3.800625,-38.548985000000016"}
+  [1m[35mRoute Load (1207.4ms)[0m  SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.7ms)[0m  [1mEXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                                                                                                             QUERY PLAN
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=575.58..575.93 rows=35 width=23)
+   ->  Seq Scan on routes  (cost=0.00..575.24 rows=68 width=23)
+         Filter: ((_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision) AND (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision))
+(3 rows)
+
+  [1m[35mRoute Load (1106.4ms)[0m  SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.6ms)[0m  [1mEXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=420.20..421.25 rows=105 width=25)
+   ->  Seq Scan on routes  (cost=0.00..419.18 rows=204 width=25)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[35mPointStop Load (18.1ms)[0m  SELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist
+  [1m[36mRoute Load (1066.1ms)[0m  [1mSELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.5ms)[0m  EXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=420.20..421.25 rows=105 width=25)
+   ->  Seq Scan on routes  (cost=0.00..419.18 rows=204 width=25)
+         Filter: (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[36mPointStop Load (1.6ms)[0m  [1mSELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist[0m
+  [1m[35mPointStop Load (50.9ms)[0m  SELECT next_to, ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = 'TER.FOR.PAR') LIMIT 1
+  [1m[36mPointStop Load (3.1ms)[0m  [1mSELECT ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = 'TER.FOR.PAR') LIMIT 1[0m
+  [1m[35m (379.0ms)[0m  SELECT name_route, cod_route, ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) as dist FROM (select distinct on (name_route) name_route, cod_route, path::geography,ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) as dist from routes WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.776193 -38.563516)'::geography, path::geography) <= 50 AND station ILIKE '%PAR%' AND name_route NOT ILIKE '%Corujão%')) subselect ORDER BY dist LIMIT 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = 'TER.FOR.PAR') LIMIT 1[0m
+  [1m[35m (211.8ms)[0m  SELECT name_route, cod_route, ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) as dist FROM (select distinct on (name_route) name_route, cod_route, path::geography,ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) as dist from routes WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.776193 -38.563516)'::geography, path::geography) <= 50 AND station ILIKE '%PAR%' AND name_route NOT ILIKE '%Corujão%')) subselect ORDER BY dist LIMIT 2
+Completed 200 OK in 4065ms (Views: 1.7ms | ActiveRecord: 4046.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /about.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /jquery-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/purl.js?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /purl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/simulation.js?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /simulation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-02 16:37:10 -0300
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2013-04-02 16:37:11 -0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/routes-by-point/?point=-3.732947,-38.49884099999997" for 127.0.0.1 at 2013-04-02 16:37:26 -0300
+Processing by HomeController#search_route_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997"}
+  [1m[36mRoute Load (1086.3ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.7ms)[0m  EXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=420.20..421.25 rows=105 width=23)
+   ->  Seq Scan on routes  (cost=0.00..419.18 rows=204 width=23)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+Completed 200 OK in 1098ms (Views: 10.7ms | ActiveRecord: 1087.0ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.731025257763364,-38.49156684915158,-3.7348687380311456,-38.50611515084836" for 127.0.0.1 at 2013-04-02 16:37:27 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.731025257763364,-38.49156684915158,-3.7348687380311456,-38.50611515084836"}
+  [1m[36mPointStop Load (10.6ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.731025257763364 -38.49156684915158,-3.7348687380311456 -38.49156684915158,-3.7348687380311456 -38.50611515084836,-3.731025257763364 -38.50611515084836,-3.731025257763364 -38.49156684915158))'))[0m
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/home/routes-bytwo-point/?point=-3.732947,-38.49884099999997,-3.800625,-38.548985000000016" for 127.0.0.1 at 2013-04-02 16:37:30 -0300
+Processing by HomeController#search_route_two_point as JSON
+  Parameters: {"point"=>"-3.732947,-38.49884099999997,-3.800625,-38.548985000000016"}
+  [1m[35mRoute Load (1196.7ms)[0m  SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.7ms)[0m  [1mEXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                                                                                                             QUERY PLAN
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=575.58..575.93 rows=35 width=23)
+   ->  Seq Scan on routes  (cost=0.00..575.24 rows=68 width=23)
+         Filter: ((_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision) AND (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision))
+(3 rows)
+
+  [1m[35mRoute Load (1074.7ms)[0m  SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.6ms)[0m  [1mEXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=420.20..421.25 rows=105 width=25)
+   ->  Seq Scan on routes  (cost=0.00..419.18 rows=204 width=25)
+         Filter: (_st_distance('0101000020E6100000499C155113DD0DC0B0739A05DA3F43C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[35mPointStop Load (1.5ms)[0m  SELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist
+  [1m[36mRoute Load (1081.1ms)[0m  [1mSELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.6ms)[0m  EXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=420.20..421.25 rows=105 width=25)
+   ->  Seq Scan on routes  (cost=0.00..419.18 rows=204 width=25)
+         Filter: (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[36mPointStop Load (1.5ms)[0m  [1mSELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist[0m
+  [1m[35mPointStop Load (1.4ms)[0m  SELECT next_to, ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = 'TER.FOR.PAR') LIMIT 1
+  [1m[36mPointStop Load (1.5ms)[0m  [1mSELECT ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = 'TER.FOR.PAR') LIMIT 1[0m
+  [1m[35m (201.2ms)[0m  SELECT name_route, cod_route, ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) as dist FROM (select distinct on (name_route) name_route, cod_route, path::geography,ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) as dist from routes WHERE (ST_Distance('POINT(-3.732947 -38.49884099999997)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.776193 -38.563516)'::geography, path::geography) <= 50 AND station ILIKE '%PAR%' AND name_route NOT ILIKE '%Corujão%')) subselect ORDER BY dist LIMIT 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = 'TER.FOR.PAR') LIMIT 1[0m
+  [1m[35m (197.6ms)[0m  SELECT name_route, cod_route, ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) as dist FROM (select distinct on (name_route) name_route, cod_route, path::geography,ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) as dist from routes WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.776193 -38.563516)'::geography, path::geography) <= 50 AND station ILIKE '%PAR%' AND name_route NOT ILIKE '%Corujão%')) subselect ORDER BY dist LIMIT 2
+Completed 200 OK in 3777ms (Views: 1.5ms | ActiveRecord: 3759.0ms)
+
+
+Started GET "/home/name-route?term=029" for 127.0.0.1 at 2013-04-02 16:37:42 -0300
+Processing by HomeController#search_name_route as JSON
+  Parameters: {"term"=>"029"}
+  [1m[36mRoute Load (9.3ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (name_route ILIKE '%029%' ) LIMIT 10[0m
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_dadada_1x400.png" for 127.0.0.1 at 2013-04-02 16:37:44 -0300
+Served asset /images/ui-bg_glass_75_dadada_1x400.png - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_glass_75_dadada_1x400.png"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/felipedaraujo/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/home/coord-route/029" for 127.0.0.1 at 2013-04-02 16:37:44 -0300
+Processing by HomeController#search_coord_route as JSON
+  Parameters: {"id"=>"029"}
+  [1m[35mRoute Load (1.8ms)[0m  SELECT st_asgeojson(path) as path FROM "routes" WHERE (cod_route = '029')
+Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/home/routes-by-point/?point=-3.8014438,-38.56428399999999" for 127.0.0.1 at 2013-04-02 16:37:56 -0300
+Processing by HomeController#search_route_point as JSON
+  Parameters: {"point"=>"-3.8014438,-38.56428399999999"}
+  [1m[36mRoute Load (1096.6ms)[0m  [1mSELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.6ms)[0m  EXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=420.20..421.25 rows=105 width=23)
+   ->  Seq Scan on routes  (cost=0.00..419.18 rows=204 width=23)
+         Filter: (_st_distance('0101000020E6100000DDA7F45D5B690EC0F8D346753A4843C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+Completed 200 OK in 1101ms (Views: 2.9ms | ActiveRecord: 1097.2ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.799522208993101,-38.5570098491516,-3.803365386724779,-38.571558150848375" for 127.0.0.1 at 2013-04-02 16:37:57 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.799522208993101,-38.5570098491516,-3.803365386724779,-38.571558150848375"}
+  [1m[36mPointStop Load (6.7ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.799522208993101 -38.5570098491516,-3.803365386724779 -38.5570098491516,-3.803365386724779 -38.571558150848375,-3.799522208993101 -38.571558150848375,-3.799522208993101 -38.5570098491516))'))[0m
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/home/routes-bytwo-point/?point=-3.8014438,-38.56428399999999,-3.800625,-38.548985000000016" for 127.0.0.1 at 2013-04-02 16:38:02 -0300
+Processing by HomeController#search_route_two_point as JSON
+  Parameters: {"point"=>"-3.8014438,-38.56428399999999,-3.800625,-38.548985000000016"}
+  [1m[35mRoute Load (1141.8ms)[0m  SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.7ms)[0m  [1mEXPLAIN SELECT distinct name_route, cod_route FROM "routes" WHERE (ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, cod_route FROM "routes"  WHERE (ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                                                                                                             QUERY PLAN
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=575.58..575.93 rows=35 width=23)
+   ->  Seq Scan on routes  (cost=0.00..575.24 rows=68 width=23)
+         Filter: ((_st_distance('0101000020E6100000DDA7F45D5B690EC0F8D346753A4843C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision) AND (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision))
+(3 rows)
+
+  [1m[35mRoute Load (1057.4ms)[0m  SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, path::geography) <= 500)
+  [1m[36mEXPLAIN (0.5ms)[0m  [1mEXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, path::geography) <= 500)[0m
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=420.20..421.25 rows=105 width=25)
+   ->  Seq Scan on routes  (cost=0.00..419.18 rows=204 width=25)
+         Filter: (_st_distance('0101000020E6100000DDA7F45D5B690EC0F8D346753A4843C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[35mPointStop Load (1.4ms)[0m  SELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist
+  [1m[36mRoute Load (1056.6ms)[0m  [1mSELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)[0m
+  [1m[35mEXPLAIN (0.6ms)[0m  EXPLAIN SELECT distinct name_route, station FROM "routes" WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+EXPLAIN for: SELECT distinct name_route, station FROM "routes"  WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500)
+                                                                               QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ HashAggregate  (cost=420.20..421.25 rows=105 width=25)
+   ->  Seq Scan on routes  (cost=0.00..419.18 rows=204 width=25)
+         Filter: (_st_distance('0101000020E610000048E17A14AE670EC0507FF623454643C0'::geography, (path)::geography, 0::double precision, true) <= 500::double precision)
+(3 rows)
+
+  [1m[36mPointStop Load (1.5ms)[0m  [1mSELECT cod_point, ST_AsText(coord_desc) as coord_desc, ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, coord_desc::geography) as dist FROM "point_stops" WHERE (refer = 2) ORDER BY dist[0m
+  [1m[35mPointStop Load (1.2ms)[0m  SELECT next_to, ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = 'TER.FOR.PAR') LIMIT 1
+  [1m[36mPointStop Load (1.2ms)[0m  [1mSELECT ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = 'TER.FOR.PAR') LIMIT 1[0m
+  [1m[35m (175.7ms)[0m  SELECT name_route, cod_route, ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, path::geography) as dist FROM (select distinct on (name_route) name_route, cod_route, path::geography,ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, path::geography) as dist from routes WHERE (ST_Distance('POINT(-3.8014438 -38.56428399999999)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.776193 -38.563516)'::geography, path::geography) <= 50 AND station ILIKE '%PAR%' AND name_route NOT ILIKE '%Corujão%')) subselect ORDER BY dist LIMIT 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT ST_AsText(coord_desc) as coord_desc FROM "point_stops" WHERE (cod_point = 'TER.FOR.PAR') LIMIT 1[0m
+  [1m[35m (196.5ms)[0m  SELECT name_route, cod_route, ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) as dist FROM (select distinct on (name_route) name_route, cod_route, path::geography,ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) as dist from routes WHERE (ST_Distance('POINT(-3.800625 -38.548985000000016)'::geography, path::geography) <= 500 AND ST_Distance('POINT(-3.776193 -38.563516)'::geography, path::geography) <= 50 AND station ILIKE '%PAR%' AND name_route NOT ILIKE '%Corujão%')) subselect ORDER BY dist LIMIT 2
+Completed 200 OK in 3649ms (Views: 1.5ms | ActiveRecord: 3635.1ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.797191211979738,-38.542086198303195,-3.8048775710878564,-38.57118280169675" for 127.0.0.1 at 2013-04-02 16:38:05 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.797191211979738,-38.542086198303195,-3.8048775710878564,-38.57118280169675"}
+  [1m[36mPointStop Load (6.4ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.797191211979738 -38.542086198303195,-3.8048775710878564 -38.542086198303195,-3.8048775710878564 -38.57118280169675,-3.797191211979738 -38.57118280169675,-3.797191211979738 -38.542086198303195))'))[0m
+Completed 200 OK in 12ms (Views: 1.2ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.797191211979738,-38.542086198303195,-3.8094593792792657,-38.57118280169675" for 127.0.0.1 at 2013-04-02 16:38:11 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.797191211979738,-38.542086198303195,-3.8094593792792657,-38.57118280169675"}
+  [1m[35mPointStop Load (8.2ms)[0m  SELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.797191211979738 -38.542086198303195,-3.8094593792792657 -38.542086198303195,-3.8094593792792657 -38.57118280169675,-3.797191211979738 -38.57118280169675,-3.797191211979738 -38.542086198303195))'))
+Completed 200 OK in 18ms (Views: 1.9ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/home/point-stop/?bounds=-3.797191211979738,-38.542086198303195,-3.8039783348430816,-38.57118280169675" for 127.0.0.1 at 2013-04-02 16:38:12 -0300
+Processing by HomeController#point_layer_dinamic as JSON
+  Parameters: {"bounds"=>"-3.797191211979738,-38.542086198303195,-3.8039783348430816,-38.57118280169675"}
+  [1m[36mPointStop Load (7.4ms)[0m  [1mSELECT st_asgeojson(coord_desc) as coord_desc FROM "point_stops" WHERE (st_intersects(coord_desc, 'POLYGON((-3.797191211979738 -38.542086198303195,-3.8039783348430816 -38.542086198303195,-3.8039783348430816 -38.57118280169675,-3.797191211979738 -38.57118280169675,-3.797191211979738 -38.542086198303195))'))[0m
+Completed 200 OK in 17ms (Views: 2.2ms | ActiveRecord: 7.4ms)
+^C>> Stopping ...
+Exiting
+]0;felipedaraujo@felipedaraujo: ~/Documentos/inpontofelipedaraujo@felipedaraujo:~/Documentos/inponto$ exit
+exit
+
+Script done on Ter 02 Abr 2013 22:21:36 BRT

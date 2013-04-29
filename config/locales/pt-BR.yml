@@ -858,6 +858,9 @@ pt-BR:
   pay: Pague
   payment: Pagamento
   payment_actions: "Actions"
+  payment_counter:
+    one: "Pagamento #1"
+    other: "Pagamento #%{count}"
   payment_gateway: "Gateway de Pagamento"
   payment_information: "Dados do Pagamento"
   payment_method: "Método de Pagamento"
@@ -867,7 +870,7 @@ pt-BR:
   payment_state: "Estado do Pagamento"
   payment_states: 
     balance_due: "Saldo devedor"
-    checkout: checkout
+    checkout: "Confirmação"
     completed: Completo
     credit_owed: "Crédito devido"
     failed: Falhou
@@ -1286,3 +1289,4 @@ pt-BR:
   zone_based: "Baseado em Zona"
   zone_setting_description: "Coleção de países, estados e outras zonas a serem usados nos cálculos."
   zones: Zonas
+  template: "Gabarito"
