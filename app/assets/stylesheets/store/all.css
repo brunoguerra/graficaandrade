@@ -16,11 +16,262 @@
  require spree_variant_options
 */
 
+h1.three.columns{
+	height: 50px!important;
+}
+
+.errorExplanation p, .errorExplanation li{
+	color: black;
+}
 
 body{
 	background-repeat: repeat-x;
 	color:#2190c5;
 }
+  
+  /*FILTROS PROCUCTS-VARIANTS*/
+  .filtros select{
+    background: #fff;
+    height: 30px;
+    width: 50%;
+    margin-top: 3px;
+    padding: 5px;
+    border: 1px solid #a9a9a9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 1px 1px 5px 0px #cccccc;
+    -moz-box-shadow: inset 1px 1px 5px 0px #cccccc;
+    box-shadow: inset 1px 1px 5px 0px #cccccc;
+  }
+  .clearfix:after, .container_16:after {
+    clear: both !important;
+  }
+  .clearfix:before, .clearfix:after, .container_16:before, .container_16:after {
+    content: '.';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+  }
+  .filtros {
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 12px;
+    background: #e2e2e2;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+    }
+   .filtros ul {margin: 0; padding: 0;}
+   .filtros ul li {margin: 0 10px 0 0; float: left;}
+   .filtros ul li label {display: block; margin-bottom: 5px; line-height: 12px;}
+   .filtros ul li select {width: 90px; margin: 0;}
+    
+   .filtros-instrucoes select {width: 150px !important;}
+/* Produtos - listagem
+----------------------------------------------------------------------------------------------------*/
+/* tï¿½tulo e trigger */
+	.prod-accordion h2 {
+	margin: 0 0 1px 0;
+	padding: 0;
+	}
+	.prod-accordion h2 a {
+		display: block;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 10px;
+		background: #414141 url(/themes/eurocartoes/frontend/images/icones/ico-seta-fechado.png) 98% center no-repeat;
+		cursor: pointer;
+		color: #fff;
+		text-decoration: none;
+		font-size: 14px;
+		text-transform: uppercase;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+	.prod-accordion h2 a.aberto {background-image: url(/themes/eurocartoes/frontend/images/icones/ico-seta-aberto.png);}
+/* conteï¿½do */
+.prod-accordion .prod-accordion-cont {
+	border: 1px solid #e2e2e2;
+	border-top: none;
+	margin-bottom: 1px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+	}
+	.prod-accordion .prod-accordion-cont table {
+		margin: 0 auto;
+		width: 98% !important;
+		border: none !important;
+	}
+	.prod-accordion .prod-accordion-cont table tr {background: url(/themes/eurocartoes/frontend/images/bg-dot.gif) bottom repeat-x;}
+	.prod-accordion .prod-accordion-cont table th,
+	.prod-accordion .prod-accordion-cont table td {padding: 0;}
+	.prod-accordion .prod-accordion-cont p {
+		margin: 0;
+		padding: 10px 0;
+		color: #666;
+		font-size: 12px;
+		}
+		
+		.prod-accordion-instrucoes .prod-accordion-cont * {padding: 10px !important;}
+		.prod-accordion .prod-accordion-cont a { text-decoration: none; }
+		.prod-accordion .prod-accordion-cont p span {
+			display: block;
+			font-size: 14px;
+			color: #e20b82;
+		}
+		.prod-accordion .prod-accordion-cont p strong {font-size: 13px; color: #000;}
+	.prod-accordion .prod-accordion-cont table td.col-bt-comprar {
+		width: 90px;
+	}
+	.prod-accordion .prod-accordion-cont table td.col-bt-comprar p {padding: 0; margin: 0;}
+	.prod-accordion .prod-accordion-cont table a.bt-comprar {
+		display: block;
+		width: 90px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		color: #fff;
+		text-decoration: none;
+		background: #e80b86;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+	.prod-accordion.prod-accordion-instrucoes .prod-accordion-cont p {font-size: 14px !important;}
+   /*FILTROS PROCUCTS-VARIANTS*/
+
+
+
+/*ENTREGAR METODOS*/
+
+.clearfix, .container_16 {
+	zoom: 1;
+}
+
+label {
+	padding: 0;
+}
+
+.lista-entrega li {
+	border: 1px solid #fff;
+	border-bottom-style: dashed;
+	border-bottom-color: #ccc;
+	margin: 0;
+	padding: 10px;
+}
+
+.noMarker li {
+	list-style: none;
+	margin-left: 0;
+}
+.lista-entrega li input[type=radio] {
+	margin: 20px 10px 0 0;
+}
+input[type="radio"] {
+	vertical-align: bottom;
+}
+.pointer {
+	cursor: pointer;
+}
+.left {
+	float: left;
+}
+input, button, textarea, select, optgroup, option {
+	font: inherit;
+	text-transform: inherit;
+	line-height: inherit !important;
+}
+.lista-entrega li label {
+	padding-top: 0;
+}
+.lista-entrega li img {
+	margin-right: 5px;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+.cc-type img{
+	vertical-align: middle;
+}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.bt-comprar label{
+	height:100%; 
+	display:block;
+	cursor:pointer;
+}
+
+/* tipos de entrega */
+.lista-entrega li input[type=radio] {margin: 20px 10px 0 0;}
+.lista-entrega li label {padding-top: 0;}
+.lista-entrega li h5 {
+	font-family: 'KlavikaRegular';
+	font-size: 16px;
+	color: #666;
+	margin-top: 0;
+}
+.lista-entrega li img {margin-right: 5px;}
+.lista-entrega li p {margin: 0;}
+.lista-entrega li p strong {font-size: 16px;}
+.lista-entrega li {
+	border: 1px solid #fff;
+	border-bottom-style: dashed;
+	border-bottom-color: #ccc;
+	margin: 0;
+	padding: 10px;
+}
+.lista-entrega li.selected,
+.lista-entrega li:hover {
+	background-color: #ebf5e1;
+	border: 1px solid #cee4b7;
+}
+.lista-entrega li.selected {background: #ebf5e1 url(ico-check.png) 98% 10px no-repeat;}
+.lista-entrega li h5 {
+	font-family: 'KlavikaRegular';
+	font-size: 16px;
+	color: #666;
+	margin-top: 0;
+}
+.lista-entrega h5, p {
+	padding: 0;
+}
+.lista-entrega p, li, h5 {
+	margin: 0;
+	padding: 0;
+}
+.lista-entrega li p {
+padding-right: 0;
+padding-left: 0;
+}
+.lista-entrega strong span, label span {
+	color: #c00;
+}
+/*ENTREGA METHODOS*/
+
+
+
+
+
+
 
 a, li, p, span,
 #breadcrumbs li a,

@@ -29,11 +29,11 @@ Deface::Override.new(:virtual_path => "spree/shared/_header",
 					      <%= render :partial => 'spree/shared/search' %>
 					    </li>
 					</div>")
-=begin
-Deface::Override.new(:virtual_path => "spree/shared/_nav_bar",
-					 :name => "remove_filter",
-					 :remove => "#taxon")
-=end
+
+Deface::Override.new(:virtual_path => "spree/shared/_sidebar",
+					:name => "remove_sidebar",
+					:remove => "#sidebar")
+
 
 Deface::Override.new(:virtual_path => "spree/shared/_header",
 					:name => "involve_logo",
@@ -175,8 +175,48 @@ Deface::Override.new(:virtual_path => "spree/admin/prototypes/_form",
 				       	<%= f.select :option_type_ids, Spree::OptionType.all.map { |ot| [ot.name, ot.id] }, {}, { :multiple => true, :class => 'select2 fullwidth' } %>
 				     <% end %>")
 
-
 Deface::Override.new(:virtual_path   => "spree/products/_cart_form",
                      :name           => "filter_variants",
                      :replace        => "#product-variants",
                      :partial        => "spree/shared/variants_product")
+
+
+#Spree Forma de Entrega #methods
+Deface::Override.new(:virtual_path   => "spree/checkout/_delivery",
+                     :name           => "radio_methods_frete",
+                     :replace        => "#methods p.field",
+                     :text		     => "
+                     	<p class='field radios'>
+                     		<ul class='noMarker lista-entrega noPadding'  style='display: block;'>
+					        <% @order.rate_hash.each do |shipping_method| 
+					        	image = '<img src=\"/assets/ico-'+shipping_method[:name].downcase().split(' ')[0]+'.png\">'
+					        	price = shipping_method.display_price
+					        	html = '
+										<h5 class=\"noPadding\">'+shipping_method[:name]+'</h5>
+										<p><strong><span>'+price.to_s+'</span></strong></p>
+									'
+					        	%>
+					        	<li>
+									<%= radio_button(:order, :shipping_method_id, shipping_method[:id], :class=> 'pointer left') %>
+									<%= label_tag 'order_shipping_method_id_'+shipping_method[:id].to_s, raw(image), :class=> 'pointer left' %>
+									<%= label_tag 'order_shipping_method_id_'+shipping_method[:id].to_s, raw(html), :class=> 'pointer left' %>
+									<div class='clear'></div>
+								</li>
+					        <% end %>
+					    </p>
+                     ")
+
+#Spree Payments
+Deface::Override.new(:virtual_path   => "spree/checkout/_payment",
+                     :name           => "radio_payments_attributes",
+                     :replace        => "[data-hook='checkout_payment_step'] p label",
+                     :text		     => "
+                     	<%= radio_button_tag \"order[payments_attributes][][payment_method_id]\", method.id %>
+        				<%= t(method.name, :scope => :payment_methods, :default => method.name) %>")
+
+#Spree Order Details
+Deface::Override.new(:virtual_path   => "spree/shared/_order_details",
+                     :name           => "div_payment-info",
+                     :replace        => ".payment-info",
+                     :text		     => "
+                     	<%= render order.payments %>")

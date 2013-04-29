@@ -1,0 +1,13 @@
+development: &development
+  developer: true
+  base: "http://localhost:3000"
+  return_to: "/pedido/efetuado"
+  email: macielcr7@gmail.com
+
+test:
+  <<: *development
+
+production:
+  authenticity_token: 958538F94ABA4EACA3DFEACA066F0114
+  email: macielcr7@gmail.com
+  return_to: "http://graficaandrade.com.br/pedido/efetuado"
