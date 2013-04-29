@@ -1,13 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3'
-
-
+gem 'pg'
+gem  'rmagick', '2.13.2'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -22,27 +17,15 @@ end
 
 gem 'jquery-rails'
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
 gem 'spree', '1.3.2'
 gem 'spree_gateway', :github => 'spree/spree_gateway', :branch => '1-3-stable'
 gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-3-stable'
 gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git'
 gem "spree_correios"
 gem "spree_pag_seguro"
+gem "pagseguro", "~> 0.1.10"
 gem 'spree_slider'
+
 #gem 'datashift'
 #gem 'datashift_spree'
 #gem 'wicked_pdf'
