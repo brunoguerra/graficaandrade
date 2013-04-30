@@ -34,7 +34,7 @@
                 <%= t('sku') +': '+v.sku %>
               </a>
             </h2>
-            <section class="prod-accordion-cont" id="menu_69" style="display: block;">
+            <section class="prod-accordion-cont" style="display: block;">
             <table>
               <tbody>
                 <tr class="tr-item" style="background-color: rgb(255, 255, 255);">
@@ -48,7 +48,7 @@
                   
                   <td style="width:20%;">
                     <p>
-                      <%= link_to raw('<img src="/assets/ico-gabarito.png" alt="Gabarito" title="Baixe o Gabarito">'), "/spree/variants?template="+v.template.to_s, :target => '_blank' %>
+                      <%= link_to raw('<img src="/assets/ico-gabarito.png" alt="Gabarito" title="Baixe o Gabarito">'), "/spree/variants?template="+v.template.to_s, :target => '_blank' if !v.template.nil? %>
                         
                       </a>
                     </p>
