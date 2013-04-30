@@ -561,7 +561,7 @@ pt-BR:
   debit: Débito
   default: Padrão
   delete: Apagar
-  delivery: Delivery
+  delivery: Entrega
   devise:
     failure:
      invalid: "Email ou senha inválida"
@@ -796,7 +796,7 @@ pt-BR:
     variant_not_deleted: "Variante não pode ser deletada"
   on_hand: "Em Estoque"
   operation: Operação
-  option_type: "Option Type"
+  option_type: "Tipo de Opção"
   option_types: "Tipos de Opção"
   option_value: "Option Value"
   option_values: "Valores Opcionais"
@@ -1091,11 +1091,11 @@ pt-BR:
   return_authorizations: Autorizações de devolução
   return_quantity: Quantidade a ser devolvido
   returned: Devolvido
-  rma_credit: RMA Credit
-  rma_number: RMA Number
-  rma_value: RMA Value
+  rma_credit: RMA Credito
+  rma_number: RMA Número
+  rma_value: RMA Valor
   roles: Funções
-  rules: Rules
+  rules: Regras
   sales_tax: "Imposto de venda"
   sales_total: "Total de Vendas"
   sales_total_description: "Total de vendas por todos os pedidos"
@@ -1163,14 +1163,14 @@ pt-BR:
   site_url: "URL do site"
   sku: SKU
   smtp: SMTP
-  smtp_authentication_type: SMTP Authentication Type
-  smtp_domain: SMTP Domain
-  smtp_mail_host: SMTP Mail Host
-  smtp_password: SMTP Password
-  smtp_port: SMTP Port
+  smtp_authentication_type: SMTP Tipo de autenticação
+  smtp_domain: SMTP Dominio
+  smtp_mail_host: SMTP Servidor Email
+  smtp_password: SMTP Senha
+  smtp_port: SMTP Porta
   smtp_send_all_emails_as_from_following_address: "Enviar todos emails deste endereço."
   smtp_send_copy_to_this_addresses: "Enviar cópia de todos emails para estes endereços. Separar por vírgulas ou espaços"
-  smtp_username: SMTP Username
+  smtp_username: SMTP Login
   sold: Vendidos
   sort_ordering: "Ordenação"
   special_instructions: "Instruções Especiais"
@@ -1282,7 +1282,7 @@ pt-BR:
   width: Largura
   year: "Ano"
   you_have_been_logged_out: "Você foi desconectado."
-  you_have_no_orders_yet: "You have no orders yet."
+  you_have_no_orders_yet: "Você Não Possui Pedidos Ainda."
   your_cart_is_empty: "O carrinho está vazio"
   zip: Codigo Postal
   zone: Zona
