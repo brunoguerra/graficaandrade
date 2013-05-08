@@ -58,7 +58,7 @@
                     <p>
                       <a href="javascript:void(0);" class="bt-comprar">
                         <label for="<%= ['products', @product.id, v.id].join('_')%>">
-                          <%= radio_button_tag "products[#{@product.id}]", v.id, checked, :disabled => !v.in_stock && !Spree::Config[:allow_backorders], 'data-price' => v.price_in(current_currency).display_price, :style=>"vertical-align:middle!important;" %> Selecionar
+                          <%= radio_button_tag "products[#{@product.id}]", v.id, checked, :disabled => !v.in_stock && !Spree::Config[:allow_backorders], 'data-price' => v.price_in(current_currency).display_price, :style=>"vertical-align:middle!important;display:none;" %> Comprar
                         </label>
                       </a>
                     </p>
@@ -93,4 +93,45 @@
       $('.variations-ul section.prod-accordion').show();      
     }
   });
+  var resquest = 0;
+  $('#product-variants .bt-comprar').click(function(){
+    setTimeout(function(){
+      if(resquest==0) resquest = 1;
+      else{
+        return false;
+      }
+      var data = {};
+      $('#cart-form form [name]').each(function(){
+        var field = $(this);
+        data[field.attr('name')] = field.val();
+      });
+
+      $.ajax({
+        type: "POST",
+        dataType: 'json',
+        url: $('#cart-form form').attr('action'),
+        data: data
+      }).done(function( data ) {
+        resquest = 0;
+        if(data.success == true){
+          alert('Produto Adicionado ao carrinho!');
+          if (data.count_item>1){
+            var text = data.count_item+" items";
+          }
+          else{
+            var text = data.count_item+" item";
+          }
+          $('#item_count').text(text);
+        }
+      }).fail(function(){
+        resquest = 0;
+        if(data.success == true){
+          alert('Erro ao adicionar produto!');
+        }
+      });
+    },100);
+  });
+
+  
+
 </script>

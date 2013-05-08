@@ -594,6 +594,7 @@ class CreateSpreeTables < ActiveRecord::Migration
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
     t.integer  "position",   :default => 0
+    t.string   "image_path"
   end
 
   create_table "spree_taxons", :force => true do |t|

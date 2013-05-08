@@ -48,9 +48,10 @@ Deface::Override.new(:virtual_path => "spree/shared/_header",
 					 :insert_bottom => "#logo",
 					 :text => "
 					 <div id='area_box'>
-						 <li id='link-to-cart' class='box-black' data-hook><%= link_to_cart %></li>
+						 <li id='link-to-cart' class='box-black' data-hook><%= link_to_cart_count_items %></li>
 						 <li id='link-to-contacts' class='box-black' data-hook><a href='/'>Contatos</a></li>
 						 <li id='link-to-art' class='box-black' data-hook><a href='/'>Criação de Arte</a></li>
+						 <li id='link-to-balcoes' class='box-black' data-hook><a href='/counter_withdrawals'>Balcões de Retirada</a></li>
 					 </div>")
 
 Deface::Override.new(:virtual_path => "spree/shared/_header",
@@ -112,7 +113,14 @@ Deface::Override.new(:virtual_path => "spree/shared/_products",
 					 :replace => ".product-image",
 					 :text => "
 					 <div class='product-image'>
-			          	<%= link_to large_image(product, :itemprop => 'image'), product, :itemprop => 'url' %>
+					 	<% 
+					 	if product.images.count()==0 and !product.taxons.first.taxonomy.image_path.nil? 
+					 		imagem = raw('<img alt=\"Large\" itemprop=\"image\" src=\"/assets/taxonomies_template/'+product.taxons.first.taxonomy.image_path+'\">') 
+					 	else
+					 		imagem = large_image(product, :itemprop => 'image')
+					 	end
+					 	%>
+			          	<%= link_to imagem, product, :itemprop => 'url' %>
 			         </div>")
 
 

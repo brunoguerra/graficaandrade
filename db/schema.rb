@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130425165309) do
+ActiveRecord::Schema.define(:version => 20130506165813) do
 
   create_table "product_customization_types_products", :id => false, :force => true do |t|
     t.integer "product_customization_type_id"
@@ -138,6 +138,20 @@ ActiveRecord::Schema.define(:version => 20130425165309) do
   end
 
   add_index "spree_configurations", ["name", "type"], :name => "index_spree_configurations_on_name_and_type"
+
+  create_table "spree_counter_withdrawals", :force => true do |t|
+    t.string   "description"
+    t.string   "code_postal"
+    t.integer  "state_id"
+    t.string   "city"
+    t.string   "district"
+    t.string   "address"
+    t.string   "number"
+    t.string   "complement"
+    t.string   "phone"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
   create_table "spree_countries", :force => true do |t|
     t.string  "iso_name"
@@ -308,20 +322,21 @@ ActiveRecord::Schema.define(:version => 20130425165309) do
     t.integer  "payment_id"
     t.string   "code"
     t.datetime "date"
+    t.integer  "order_id"
   end
 
   create_table "spree_payment_methods", :force => true do |t|
     t.string   "type"
     t.string   "name"
     t.text     "description"
-    t.boolean  "active",      :default => true
-    t.string   "environment", :default => "development"
+    t.boolean  "active",                         :default => true
+    t.string   "environment",                    :default => "development"
     t.datetime "deleted_at"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
+    t.datetime "created_at",                                                :null => false
+    t.datetime "updated_at",                                                :null => false
     t.string   "display_on"
-    t.string   "preferred_email"
-    t.string   "preferred_token"
+    t.string   "preferred_email", :limit => nil
+    t.string   "preferred_token", :limit => nil
   end
 
   create_table "spree_payment_notifications", :force => true do |t|

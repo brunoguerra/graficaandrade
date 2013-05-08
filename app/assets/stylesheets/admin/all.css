@@ -15,3 +15,8 @@
 .admin #wrapper .flash{
 	padding: 23px;
 }
+
+#jLogo{
+	display: none !important;
+}
+
