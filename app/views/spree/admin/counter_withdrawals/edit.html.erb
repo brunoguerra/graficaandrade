@@ -1,0 +1,18 @@
+<%= render :partial => 'spree/admin/shared/configuration_menu' %>
+
+<% content_for :page_title do %>
+  <%= t(:editing_counter_withdrawal) %>
+<% end %>
+
+<% content_for :page_actions do %>
+  <li><%= link_to_with_icon 'icon-arrow-left', t(:back_to_counter_withdrawals_list), admin_counter_withdrawals_path, :class => 'button' %></li>
+<% end %>
+
+<%= render :partial => 'spree/shared/error_messages', :locals => { :target => @counter_withdrawal } %>
+
+<%= form_for [:admin, @counter_withdrawal] do |f| %>
+  <fieldset class="no-border-top">
+    <%= render :partial => 'form', :locals => { :f => f } %>
+    <div class="form-buttons filter-actions actions" data-hook="buttons"><%= button t(:update), 'icon-refresh' %></div>
+  </fieldset>
+<% end %>

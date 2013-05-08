@@ -12,3 +12,12 @@ Deface::Override.new(:virtual_path   => "spree/admin/variants/_form",
 					      <%= f.file_field :template, :class => 'fullwidth' %>
 					    </div>
                     ")
+
+Deface::Override.new(:virtual_path => "spree/admin/shared/_configuration_menu",
+					 :name => "insert_bottom_menu_2",
+					 :insert_bottom => "[data-hook='admin_configurations_sidebar_menu']",
+					 :text => "
+					 	<%= configurations_sidebar_menu_item t(:counter_withdrawal), '/admin/counter_withdrawals' %>
+					 ")
+
+

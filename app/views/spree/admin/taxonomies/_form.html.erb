@@ -1,0 +1,19 @@
+<div data-hook="admin_inside_taxonomy_form" class="field ">
+  
+  	<div class="alpha six columns" data-hook="general">
+      	<fieldset class="no-border-bottom  no-border-top">
+        
+	  	<div class="field">
+		  <%= f.label :name, t(:name) %><br />
+		  <%= f.text_field :name, :class => 'fullwidth' %>
+		</div>
+
+		<div class="field">
+		  	<%= f.label :image_path, t(:image) %><br />
+  			<%= f.file_field :image_path,  :class => 'fullwidth' %>
+		</div>
+
+  		</fieldset>
+  	</div>
+  	<div style="clear:both;"></div>
+</div>

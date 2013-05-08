@@ -1,0 +1,94 @@
+<div data-hook="admin_counter_withdrawal_form_fields">
+  <div class="row">
+    <fieldset class="no-border-bottom">  
+      <legend align="center"><%= t(:general) %></legend>
+    </fieldset>
+
+    <div class="alpha six columns" data-hook="general">
+      <fieldset class="no-border-bottom  no-border-top">
+        
+        <div class="field">
+          <%= f.label :description, t(:description) %><br />
+          <%= f.text_field :description, :class => 'fullwidth' %>
+        </div>
+
+        <div class="field">
+          <%= f.label :state_id, t(:state) %><br />
+          <%= f.select(:state_id, options_from_collection_for_select_with_attributes(
+            Spree::State.order(:name), :id, :name, :uf, :abbr), {}, {:class => 'select2 fullwidth'}) %>
+        </div>
+        
+        <div class="field">
+          <%= f.label :district, t(:district) %><br />
+          <%= f.text_field :district, :class => 'fullwidth' %>
+        </div>
+
+        <div class="field">
+          <%= f.label :address, t(:address) %><br />
+          <%= f.text_field :address, :class => 'fullwidth' %>
+        </div>
+
+        <div class="field">
+          <%= f.label :phone, t(:phone) %><br />
+          <%= f.text_field :phone, :class => 'fullwidth' %>
+        </div>
+        
+      </fieldset>
+    </div>
+
+    <div class="alpha six columns" data-hook="general">
+      <fieldset class="no-border-bottom  no-border-top">
+        
+        <div class="field">
+          <%= f.label :code_postal, t(:code_postal) %><br />
+          <%= f.number_field :code_postal, :class => 'fullwidth' %>
+        </div>
+
+        <div class="field">
+          <%= f.label :city, t(:city) %><br />
+          <%= f.text_field :city, :class => 'fullwidth' %>
+        </div>
+
+        <div class="field">
+          <%= f.label :number, t(:number) %><br />
+          <%= f.text_field :number, :class => 'fullwidth' %>
+        </div>
+
+        <div class="field">
+          <%= f.label :complement, t(:complement) %><br />
+          <%= f.text_field :complement, :class => 'fullwidth' %>
+        </div>
+
+      </fieldset>
+    </div>
+    
+  </div>
+</div>
+
+<script type="text/javascript">
+  $('#counter_withdrawal_code_postal').blur(function(){
+    var field = $(this);
+    if(!isNaN(field.val())){
+      $.getJSON('http://cep.correiocontrol.com.br/'+field.val()+'.json', function(data){
+        if(data.bairro){
+          $('#counter_withdrawal_state_id option').each(function(){
+            var option = $(this);
+            if(option.attr('uf')==data.uf){
+              $("#counter_withdrawal_state_id").select2("val", option.val());
+            }
+          });
+
+          $("#counter_withdrawal_district").val(data.bairro);
+          $("#counter_withdrawal_city").val(data.localidade);
+          $("#counter_withdrawal_address").val(data.logradouro);
+        }
+      });
+    }
+  });
+
+  <% if !@counter_withdrawal.state_id.nil? %>
+    setTimeout(function(){
+      $('#counter_withdrawal_state_id').select2('val', <%=@counter_withdrawal.state_id%>);
+    },100);
+  <% end %>
+</script>
