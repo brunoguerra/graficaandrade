@@ -16,3 +16,6 @@
 //require store/variant_options
 //require spree_variant_options
 
+if($.validator){
+	$.validator.messages.required = "Este campo é necessário.";	
+}

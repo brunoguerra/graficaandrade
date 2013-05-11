@@ -34,7 +34,7 @@
                 <%= t('sku') +': '+v.sku %>
               </a>
             </h2>
-            <section class="prod-accordion-cont" id="menu_69" style="display: block;">
+            <section class="prod-accordion-cont" style="display: block;">
             <table>
               <tbody>
                 <tr class="tr-item" style="background-color: rgb(255, 255, 255);">
@@ -48,7 +48,7 @@
                   
                   <td style="width:20%;">
                     <p>
-                      <%= link_to raw('<img src="/assets/ico-gabarito.png" alt="Gabarito" title="Baixe o Gabarito">'), "/spree/variants?template="+v.template.to_s, :target => '_blank' %>
+                      <%= link_to raw('<img src="/assets/ico-gabarito.png" alt="Gabarito" title="Baixe o Gabarito">'), "/spree/variants?template="+v.template.to_s, :target => '_blank' if !v.template.nil? %>
                         
                       </a>
                     </p>
@@ -57,9 +57,10 @@
                   <td class="col-bt-comprar" style="width:10%;">
                     <p>
                       <a href="javascript:void(0);" class="bt-comprar">
-                      <label for="<%= ['products', @product.id, v.id].join('_')%>">
-                        <%= radio_button_tag "products[#{@product.id}]", v.id, checked, :disabled => !v.in_stock && !Spree::Config[:allow_backorders], 'data-price' => v.price_in(current_currency).display_price, :style=>"vertical-align:middle!important;" %> Selecionar
-                      </label></a>
+                        <label for="<%= ['products', @product.id, v.id].join('_')%>">
+                          <%= radio_button_tag "products[#{@product.id}]", v.id, checked, :disabled => !v.in_stock && !Spree::Config[:allow_backorders], 'data-price' => v.price_in(current_currency).display_price, :style=>"vertical-align:middle!important;display:none;" %> Comprar
+                        </label>
+                      </a>
                     </p>
                   </td>
                 </tr>
@@ -92,4 +93,45 @@
       $('.variations-ul section.prod-accordion').show();      
     }
   });
+  var resquest = 0;
+  $('#product-variants .bt-comprar').click(function(){
+    setTimeout(function(){
+      if(resquest==0) resquest = 1;
+      else{
+        return false;
+      }
+      var data = {};
+      $('#cart-form form [name]').each(function(){
+        var field = $(this);
+        data[field.attr('name')] = field.val();
+      });
+
+      $.ajax({
+        type: "POST",
+        dataType: 'json',
+        url: $('#cart-form form').attr('action'),
+        data: data
+      }).done(function( data ) {
+        resquest = 0;
+        if(data.success == true){
+          alert('Produto Adicionado ao carrinho!');
+          if (data.count_item>1){
+            var text = data.count_item+" items";
+          }
+          else{
+            var text = data.count_item+" item";
+          }
+          $('#item_count').text(text);
+        }
+      }).fail(function(){
+        resquest = 0;
+        if(data.success == true){
+          alert('Erro ao adicionar produto!');
+        }
+      });
+    },100);
+  });
+
+  
+
 </script>

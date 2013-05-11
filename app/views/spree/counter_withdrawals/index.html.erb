@@ -1,0 +1,120 @@
+<style type="text/css">
+.grid_16 {
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#conteudo {
+	padding-bottom: 20px;
+}
+#conteudo h2:first-child {
+	margin-top: 0;
+}
+#conteudo h2 {
+	color: #e80b86;
+	font-size: 24px;
+}
+.clearfix, .container_16 {
+	zoom: 1;
+}
+.clearfix:before, .clearfix:after, .container_16:before, .container_16:after {
+	content: '.';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+	width: 0;
+	height: 0;
+}
+.clearfix:after, .container_16:after {
+	clear: both;
+}
+
+#retirada .estado {
+	margin-top: 20px;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	background: #414141 url(/assets/ico-seta-fechado.png) 98% center no-repeat;
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	clear: both;
+}
+.lista-enderecos {
+	margin-top: 5px;
+}
+#retirada .lista-enderecos li {
+	height: 85px;
+	border: 1px solid #fff;
+	margin: 0 !important;
+	padding: 10px;
+}
+.lista-enderecos li {
+	position: relative;
+	display: block;
+	padding-bottom: 20px;
+	background: url(/assets/bg-dot.gif) bottom repeat-x;
+}
+.noMarker li {
+	list-style: none;
+	margin-left: 0;
+}
+.lista-enderecos li label {
+	display: block;
+	margin-top: 0;
+	margin-left: 10px;
+	padding: 0;
+}
+.left {
+	float: left;
+}
+.noMarker li {
+	list-style: none;
+}
+.lista-enderecos li strong {
+	display: block;
+}
+.lista-enderecos li.selected, .lista-enderecos li:hover {
+	background-color: #ebf5e1;
+	border: 1px solid #cee4b7;
+}
+</style>
+
+<section id="conteudo" class="grid_16" style="width:100%;">
+
+	<h2>BALCÕES PARA RETIRADA</h2>
+	
+	<div id="retirada" class="clearfix">
+		<% @counter_withdrawals.each do |key, counter_withdrawals| 
+			state = Spree::State.find(key).name
+		%>
+		<div class="estado" onclick="$('#lista_<%=key%>').slideToggle();">
+			<%= state %>
+		</div>
+		
+		<div class="lista-enderecos" style="display: none; " id="lista_<%=key%>">	
+			<ul class="noMarker">
+				<% counter_withdrawals.each do |cw|  %>
+				<li>
+					<label for="balcao-<%=key%>" class="left">
+						<strong><%="#{cw.description} (#{cw.city})"%></strong>
+						<%="<b>Cidade:</b> #{cw.city}, <b>Endereço:</b> #{cw.address} #{cw.number}, <br><b>Bairro:</b> #{cw.district} <b>CEP:</b> #{cw.code_postal} <b>Complemento:</b> #{cw.complement} <br> <b>FONE:</b> #{cw.phone} ".html_safe %>
+					</label>
+				</li>
+				<% end %>
+			</ul>
+		</div>
+		<%end %>
+		
+	</div>
+	
+</section>
