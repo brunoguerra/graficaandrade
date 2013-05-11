@@ -1,0 +1,11 @@
+<% if image %> 
+  <%= image_tag image.attachment.url(:product), :itemprop => "image" %>
+<% else %>
+	<% if @product.images.count()==0 and !@product.taxons.first.taxonomy.image_path.nil? 
+ 		imagem = raw('<img itemprop="image" src="/assets/taxonomies_template/'+@product.taxons.first.taxonomy.image_path+'">') 
+ 	else
+ 		imagem = product_image(@product, :itemprop => "image")
+ 	end
+	%>
+<%= imagem %>
+<% end %>
